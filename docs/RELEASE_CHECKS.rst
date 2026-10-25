@@ -5,7 +5,10 @@ Version 0.2.2 fixes invalid scalar conversions. Its local installed wheel
 passed 31 core tests, four companion tests and the complete release checker.
 The exact-fraction audit covers 128 sampling laws and 2,048 sample calculations;
 all 2,400 archived contrast records were recomputed. See validation/audit/.
-The release workflow gates publication on the 13-job platform matrix.
+All 13 platform checks and the publication job passed for tag v0.2.2:
+https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004
+See HOSTED_CHECKS_v022.json and PUBLIC_RELEASE_v022.json for downloaded
+reports, immutable source identity and verified public-asset checksums.
 The new core SHA256 is:
 b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1
 

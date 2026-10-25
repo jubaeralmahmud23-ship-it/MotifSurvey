@@ -2,7 +2,7 @@
 
 Estimate population edge, wedge and triangle totals from an induced graph obtained by independently sampling vertices with known inclusion probabilities. MotifSurvey returns the three Horvitz-Thompson totals and their joint estimated design covariance. Probabilities may differ between vertices.
 
-Version **0.2.2** fixes invalid probability conversions found during the mathematics and code audit. Valid-input estimation arithmetic is unchanged. The frozen [0.2.1 release](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1) and its evidence remain available. The [0.2.2 release workflow](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/workflows/release.yml) runs the full platform matrix before publishing assets. No archival DOI has been assigned.
+Version **0.2.2** fixes invalid probability conversions found during the mathematics and code audit. Valid-input estimation arithmetic is unchanged. The frozen [0.2.1 release](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1) and its evidence remain available. The [0.2.2 release](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.2) passed [13 platform checks and its publication job](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004); its four public downloads were verified against checksums. No archival DOI has been assigned.
 
 ## Install
 
@@ -77,7 +77,7 @@ The public experiments treat the stored networks as fixed artificial populations
 
 The package and supplied original validation scripts use the [MIT License](Licence.txt). Third-party libraries and public datasets retain their own terms; see [dependencies and data](docs/DEPENDENCIES.rst). Datasets and third-party package source are not bundled.
 
-Maintainer: Jubaer Al Mahmud, Independent researcher, Dhaka, Bangladesh; jubaeralmahmud23@gmail.com. The [repository](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey) and [versioned release](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1) are public and their downloads have been verified. Citation metadata is in `CITATION.cff`; no archival DOI has been assigned. No external user adoption or independent human statistical review is claimed.
+Maintainer: Jubaer Al Mahmud, Independent researcher, Dhaka, Bangladesh; jubaeralmahmud23@gmail.com. The [repository](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey) and [versioned release](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.2) are public and their downloads have been verified. Citation metadata is in `CITATION.cff`; no archival DOI has been assigned. No external user adoption or independent human statistical review is claimed.
 
 Primary references:
 

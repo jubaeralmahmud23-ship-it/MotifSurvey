@@ -1,0 +1,1097 @@
+{
+  "commit": "10424e34082e2a03340e64413d53982f387a816f",
+  "run_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004",
+  "checks_passed": 13,
+  "publication_job_passed": true,
+  "jobs": [
+    {
+      "name": "checks / minimum-dependency",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364522",
+      "labels": [
+        "ubuntu-latest"
+      ]
+    },
+    {
+      "name": "checks / test (ubuntu-latest, 3.14)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364669",
+      "labels": [
+        "ubuntu-latest"
+      ]
+    },
+    {
+      "name": "checks / test (ubuntu-latest, 3.12)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364703",
+      "labels": [
+        "ubuntu-latest"
+      ]
+    },
+    {
+      "name": "checks / test (windows-latest, 3.14)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364705",
+      "labels": [
+        "windows-latest"
+      ]
+    },
+    {
+      "name": "checks / test (macos-latest, 3.14)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364707",
+      "labels": [
+        "macos-latest"
+      ]
+    },
+    {
+      "name": "checks / test (macos-latest, 3.12)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364709",
+      "labels": [
+        "macos-latest"
+      ]
+    },
+    {
+      "name": "checks / test (ubuntu-latest, 3.10)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364717",
+      "labels": [
+        "ubuntu-latest"
+      ]
+    },
+    {
+      "name": "checks / test (ubuntu-latest, 3.15)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364733",
+      "labels": [
+        "ubuntu-latest"
+      ]
+    },
+    {
+      "name": "checks / test (macos-latest, 3.10)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364741",
+      "labels": [
+        "macos-latest"
+      ]
+    },
+    {
+      "name": "checks / test (macos-latest, 3.15)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364745",
+      "labels": [
+        "macos-latest"
+      ]
+    },
+    {
+      "name": "checks / test (windows-latest, 3.15)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364769",
+      "labels": [
+        "windows-latest"
+      ]
+    },
+    {
+      "name": "checks / test (windows-latest, 3.12)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364790",
+      "labels": [
+        "windows-latest"
+      ]
+    },
+    {
+      "name": "checks / test (windows-latest, 3.10)",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166364799",
+      "labels": [
+        "windows-latest"
+      ]
+    },
+    {
+      "name": "publish",
+      "conclusion": "success",
+      "html_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40192521004/job/121166898625",
+      "labels": [
+        "ubuntu-latest"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "checks-windows-latest-3.10",
+      "sha256": "ddf4e1a33d35b9a4cd9966794f6f612e75d74c2f6df69ee363617fc6423c1f21",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Windows-10-10.0.26100-SP0",
+        "system": "Windows",
+        "machine": "AMD64",
+        "python": "3.10.11",
+        "numpy": "2.2.6",
+        "networkx": "3.4.2",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.10.11",
+        "system": "Windows",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-minimum-dependency",
+      "sha256": "528e98cf2e96368c37a8619be4b2c86e0e7e5e46ce02668efec6180e2107b34a",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "system": "Linux",
+        "machine": "x86_64",
+        "python": "3.10.22",
+        "numpy": "1.24.0",
+        "networkx": "3.4.2",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.10.22",
+        "system": "Linux",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-windows-latest-3.14",
+      "sha256": "278d010d4aa375601a1b1e9d962082b12de395f8f7a86aabe61b5bb0170e25bc",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Windows-2025Server-10.0.26100-SP0",
+        "system": "Windows",
+        "machine": "AMD64",
+        "python": "3.14.9",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.14.9",
+        "system": "Windows",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-ubuntu-latest-3.10",
+      "sha256": "9d37be96cbb8570a4b4a2d664910a027622e7cba33932dceff333603f3051336",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "system": "Linux",
+        "machine": "x86_64",
+        "python": "3.10.22",
+        "numpy": "2.2.6",
+        "networkx": "3.4.2",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.10.22",
+        "system": "Linux",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-ubuntu-latest-3.15",
+      "sha256": "3051375a147791fdcf404adecb1e4c22daf3581beea6109fd2bc93c20409b23d",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "system": "Linux",
+        "machine": "x86_64",
+        "python": "3.15.1",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.15.1",
+        "system": "Linux",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-macos-latest-3.15",
+      "sha256": "af11d4f716806a492f62fd617f6d888352e80d10add2646b0884fb0700141468",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "system": "Darwin",
+        "machine": "arm64",
+        "python": "3.15.1",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.15.1",
+        "system": "Darwin",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.034812006236477,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-macos-latest-3.12",
+      "sha256": "abe9eb6a83bc1ab07a00feb27a757611c9e9f4c22cca9157c510e1ccad8aaa25",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "macOS-26.6.2-arm64-arm-64bit",
+        "system": "Darwin",
+        "machine": "arm64",
+        "python": "3.12.10",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.12.10",
+        "system": "Darwin",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.034812006236477,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-macos-latest-3.14",
+      "sha256": "3a6fb70dfe4da4603800207da11c83e49fc6f29a6a75a175ddf948bb7d7b6854",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+        "system": "Darwin",
+        "machine": "arm64",
+        "python": "3.14.8",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.14.8",
+        "system": "Darwin",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.034812006236477,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-windows-latest-3.12",
+      "sha256": "cd810f67c70004cc3450530bbd2c21617121e9f0f389f3ca0baba6a7f0140c95",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Windows-2025Server-10.0.26100-SP0",
+        "system": "Windows",
+        "machine": "AMD64",
+        "python": "3.12.10",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.12.10",
+        "system": "Windows",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-windows-latest-3.15",
+      "sha256": "c399dcc2be726de39b5b3e3eedcc2183e1426209b518f37a7ed5d786a1961b1d",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Windows-2025Server-10.0.26100-SP0",
+        "system": "Windows",
+        "machine": "AMD64",
+        "python": "3.15.1",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.15.1",
+        "system": "Windows",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-macos-latest-3.10",
+      "sha256": "1a041ef845c2fbe05714259950f43a5bc68370a13808c526a764075257efc0db",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "macOS-26.6.2-arm64-arm-64bit",
+        "system": "Darwin",
+        "machine": "arm64",
+        "python": "3.10.11",
+        "numpy": "2.2.6",
+        "networkx": "3.4.2",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.10.11",
+        "system": "Darwin",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.034812006236477,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-ubuntu-latest-3.12",
+      "sha256": "415a5d18f8852fe7ecd0e1a9d19730204cdfa87dcd048aa07eea4560e4acbf1d",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "system": "Linux",
+        "machine": "x86_64",
+        "python": "3.12.15",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.12.15",
+        "system": "Linux",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    },
+    {
+      "name": "checks-ubuntu-latest-3.14",
+      "sha256": "b0a2634263a3fa270cc470971e03144d6a20ff281b865a07e12d1d9c7050931a",
+      "release_checker": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "system": "Linux",
+        "machine": "x86_64",
+        "python": "3.14.8",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "github_run_id": "40192521004",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "checks": {
+          "unit_tests": {
+            "returncode": 0,
+            "passed": true,
+            "count": 31
+          },
+          "cli": {
+            "returncode": 0,
+            "passed": true
+          },
+          "stress": {
+            "returncode": 0,
+            "passed": true,
+            "cases": 25,
+            "expected_rejections": 5
+          },
+          "exact_and_replay": {
+            "returncode": 0,
+            "passed": true,
+            "exact_samples": 896,
+            "public_replays": 60,
+            "cached_native_comparisons": 58
+          },
+          "dependencies": {
+            "returncode": 0,
+            "passed": true
+          }
+        },
+        "passed": true,
+        "blas_thread_limit": 1
+      },
+      "companion_checker": {
+        "passed": true,
+        "tests": 4,
+        "python": "3.14.8",
+        "system": "Linux",
+        "software_version": "0.2.2",
+        "github_sha": "10424e34082e2a03340e64413d53982f387a816f",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+      },
+      "mathematical_audit": {
+        "version": "0.2.2",
+        "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+        "rational_audit": {
+          "graphs": 64,
+          "probability_regimes": 2,
+          "exact_sampling_laws": 128,
+          "sample_calculations": 2048,
+          "expectation_identities_exact_in_fraction_arithmetic": true,
+          "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+        },
+        "reported_result_audit": {
+          "recorded_realizations_checked": 2400,
+          "mse_and_variance_summaries_reproduced": true,
+          "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+          "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+        },
+        "passed": true
+      }
+    }
+  ]
+}
