@@ -14,10 +14,11 @@ The earlier follow-up records cover 23 unit tests, 896 exhaustive samples,
 five deliberate resource/numeric rejections, 60 public replays and the large
 star check. Their timing environments and original version labels are retained.
 
-The GitHub Actions workflow is supplied for future Windows, Linux and macOS
-execution. A workflow file is not evidence of a completed remote run. Local
-verification is on Windows; no Linux or macOS result is asserted. Do not put
-a passing CI badge in the README until the corresponding public job passes.
+All 13 hosted jobs passed on 25 October 2026: Windows, Linux and macOS with
+Python 3.10, 3.12, 3.14 and 3.15, plus the minimum NumPy 1.24.0 job.
+Each report records 28 unit tests, high-precision/exact checks and cached
+replays. See HOSTED_CHECKS_v021.json for actual environments and job links.
+These compatibility repetitions are not new independent scientific experiments.
 
 Before submitting the manuscript
 --------------------------------
@@ -25,9 +26,8 @@ Before submitting the manuscript
    interests, contribution roles and copyright ownership.
 2. Review the code, derivation, evidence and manuscript. Independent statistical
    review is recommended, and is not claimed to have occurred.
-3. Create the public GitHub repository, run the supplied CI matrix, make a
-   versioned release and record its exact commit. Deposit an archival copy
-   where appropriate and insert the genuine URLs/identifier in the manuscript.
+3. Public source, the versioned release and the 13-job CI matrix are complete.
+   An archival deposit may be added where appropriate. No DOI is claimed.
 4. Recheck the current journal guide and submission portal. The official
    template retrieved on 25 October 2026 specifies five main sections,
    GitHub, README.md, Licence.txt, 4,000 words and at most six figures.
@@ -60,10 +60,17 @@ thread counts to one to avoid oversized thread pools on small machines.
 An earlier unrestricted local subprocess failed to allocate a BLAS thread
 pool during concurrent work; no numerical test failure was suppressed.
 
-Workflow checking with actionlint 1.7.12 passed. The 12-job matrix covers
-Windows/Linux/macOS with Python 3.10, 3.12, 3.14 and 3.15; another Linux job
-uses NumPy 1.24.0. The tagged release workflow waits for these checks before
-publishing. These hosted jobs have not run: GitHub access is unavailable.
-The plugin is installed but its calls fail; the public repository returns
-404 and no authenticated Git/browser session is available. No public upload
-or hosted-platform pass is claimed.
+Workflow syntax checking with actionlint 1.7.12 passed. Actual hosted job
+results are available at:
+https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40166324430
+
+The initial combined branch/tag push triggered the package matrix but did not
+start the separate Versioned release workflow. The initial release was
+published through the API after verifying every job and report. The attached
+local artifacts match their verified Windows release checks; hosted runners
+independently built the same tagged source. No automated publication-job
+execution or byte-identical hosted installation of the attached wheel is claimed.
+
+Release: https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1
+Immutable commit: e5235add0fb3cb8fe768e6baf846c894438c7b56
+The tag remains unchanged; this branch records post-deposition evidence.

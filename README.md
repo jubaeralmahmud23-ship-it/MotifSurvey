@@ -2,7 +2,7 @@
 
 Estimate population edge, wedge and triangle totals from an induced graph obtained by independently sampling vertices with known inclusion probabilities. MotifSurvey returns the three Horvitz-Thompson totals and their joint estimated design covariance. Probabilities may differ between vertices.
 
-Version **0.2.1** adds a research example and stronger release checks for the SoftwareX manuscript. Public deposition is pending repository access; no archival DOI has been assigned.
+Version **0.2.1** is [publicly released](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1). All [13 hosted checks](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40166324430) passed across Windows, Linux and macOS, including the minimum NumPy dependency. The release adds a network-closure research example and stronger validation. No archival DOI has been assigned.
 
 ## Install
 
@@ -65,7 +65,7 @@ python validation/followup/validate_v020.py
 python tools/check_release.py --output check-results
 ```
 
-Run these commands from the extracted source directory. The replay command downloads and verifies a small public SNAP dataset if it is absent. Scripts write result JSON next to themselves: use a working copy if preserving the supplied evidence. [Reproduction instructions](validation/followup/README.rst) describe native R comparisons, public thinning experiments and platform-specific performance measurements. [Theory](THEORY.rst) derives the estimator. [Release checks](docs/RELEASE_CHECKS.rst) distinguishes completed checks from unexecuted CI jobs and human review.
+Run these commands from the extracted source directory. The replay command downloads and verifies a small public SNAP dataset if it is absent. Scripts write result JSON next to themselves: use a working copy if preserving the supplied evidence. [Reproduction instructions](validation/followup/README.rst) describe native R comparisons, public thinning experiments and platform-specific performance measurements. [Theory](THEORY.rst) derives the estimator. [Release checks](docs/RELEASE_CHECKS.rst) records local and hosted checks and identifies the remaining human review.
 
 The public experiments treat the stored networks as fixed artificial populations and apply controlled vertex sampling. They do not validate the sampling mechanism of the original data collection. All 600 email-network samples were replayed under 0.2.0 during release preparation and agreed with the archived 0.1.0 calculations. These are the same controlled samples, not 600 new independent realizations. Five fresh Windows environments also passed the unit, exact-sampling, high-precision and selected-replay checks.
 
@@ -81,3 +81,9 @@ Primary references:
 - Klusowski and Wu (2018), [Counting Motifs with Graph Sampling](https://proceedings.mlr.press/v75/klusowski18a.html).
 - Bhattacharya, Das and Mukherjee, [Motif Estimation via Subgraph Sampling: The Fourth Moment Phenomenon](https://arxiv.org/abs/2011.03026v2), version 2, 2024. The uniform-probability observable overlap variance appears in Proposition 2.4. This version is identified explicitly because the printed expression differs from an earlier published-copy PDF.
 - [R sampling](https://cran.r-project.org/package=sampling) and [R survey](https://cran.r-project.org/package=survey).
+
+## Release provenance
+
+The tested source is commit `e5235add0fb3cb8fe768e6baf846c894438c7b56` (tag `v0.2.1`). [Hosted reports](docs/HOSTED_CHECKS_v021.json) record the actual environments and numerical checks. The [release record](docs/PUBLIC_RELEASE_v021.json) records anonymously verified downloads and hashes. Hosted jobs built the tagged source; the attached local wheel was separately verified on Windows. Compatibility replays are not new scientific samples.
+
+The tag and downloadable distributions retain the documentation as it stood at source freeze. This branch adds the subsequent publication and hosted-test record without changing the tagged software. The initial combined branch/tag push started the package matrix only; publication followed explicit verification of its 13 successful jobs. The automated publication job was not executed for this initial release.

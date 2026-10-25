@@ -1,0 +1,42 @@
+{
+  "version": "0.2.1",
+  "repository_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey",
+  "public": true,
+  "release_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1",
+  "release_id": 423173129,
+  "published_at": "2026-10-25T05:45:08Z",
+  "commit": "e5235add0fb3cb8fe768e6baf846c894438c7b56",
+  "commit_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/tree/e5235add0fb3cb8fe768e6baf846c894438c7b56",
+  "manual_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/blob/e5235add0fb3cb8fe768e6baf846c894438c7b56/docs/API.rst",
+  "tag": "v0.2.1",
+  "unauthenticated_downloads_verified": true,
+  "assets": [
+    {
+      "name": "MotifSurvey_hosted_checks.json",
+      "bytes": 23690,
+      "sha256": "f3ade07b8c5dedc23a37ebdb8f953918f70ca62e49caa91e969a4bebf0223323",
+      "url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/download/v0.2.1/MotifSurvey_hosted_checks.json"
+    },
+    {
+      "name": "motifsurvey_prototype-0.2.1-py3-none-any.whl",
+      "bytes": 10950,
+      "sha256": "6cc054a387d2bc4b5f361c9086c954d4b638d50b7411de7c0d0165e877618200",
+      "url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/download/v0.2.1/motifsurvey_prototype-0.2.1-py3-none-any.whl"
+    },
+    {
+      "name": "motifsurvey_prototype-0.2.1.tar.gz",
+      "bytes": 896204,
+      "sha256": "d4e9575dbaee54862065289ddbad38ec9302a1a6d5f812ddaa22c78c1f28d39b",
+      "url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/download/v0.2.1/motifsurvey_prototype-0.2.1.tar.gz"
+    },
+    {
+      "name": "PUBLISHED_SHA256SUMS.txt",
+      "bytes": 312,
+      "sha256": "7d47021cfd97db13dc83f22022430a05d12be50a71ccee128cd872baf7cf3b22",
+      "url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/download/v0.2.1/PUBLISHED_SHA256SUMS.txt"
+    }
+  ],
+  "hosted_run_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40166324430",
+  "automated_publication_job_ran": false,
+  "publication_method": "Published through GitHub REST after successful tagged-source matrix and report verification; initial combined branch/tag push produced only the branch matrix."
+}
