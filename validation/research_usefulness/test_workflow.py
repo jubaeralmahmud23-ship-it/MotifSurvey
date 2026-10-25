@@ -46,7 +46,7 @@ class ResearchWorkflowTests(unittest.TestCase):
 
     def test_profile_rejects_wrong_order_and_invalid_thresholds(self):
         result = estimate(["a", "b"], [("a", "b")], {"a": .5, "b": .5}, design="independent_node", complete_induced=True)
-        for thresholds in ([], [-.1], [1.1], [float("nan")], [True], [".25"]):
+        for thresholds in ([], [-.1], [1.1], [float("nan")], [True], [".25"], [np.bool_(True)], [np.complex128(.25+.2j)], [b'.25'], [10**5000]):
             with self.assertRaises(ValueError):
                 closure_profile(result, thresholds)
         result["motif_order"] = ["triangle", "wedge", "edge"]

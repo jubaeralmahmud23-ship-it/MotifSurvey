@@ -5,6 +5,8 @@ Thresholds selected after inspecting results must be described as exploratory.
 """
 import argparse
 import json
+from numbers import Real
+from decimal import Decimal
 from pathlib import Path
 
 import numpy as np
@@ -23,9 +25,12 @@ def closure_profile(result, thresholds):
     if not np.allclose(covariance, covariance.T, rtol=1e-12, atol=1e-12):
         raise ValueError("Covariance must be symmetric")
     values = list(thresholds)
-    if not values or any(isinstance(t, (bool, str)) for t in values):
+    if not values or any(isinstance(t, (bool, np.bool_)) or not isinstance(t, (Real, Decimal)) for t in values):
         raise ValueError("Supply numeric thresholds between zero and one")
-    values = np.asarray(values, dtype=float)
+    try:
+        values = np.asarray(values, dtype=float)
+    except (ValueError, TypeError, OverflowError):
+        raise ValueError("Supply numeric thresholds between zero and one") from None
     if values.ndim != 1 or not np.isfinite(values).all() or np.any((values < 0) | (values > 1)):
         raise ValueError("Supply numeric thresholds between zero and one")
     rows = []

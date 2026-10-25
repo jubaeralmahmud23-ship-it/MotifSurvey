@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "motifsurvey-prototype"
-version = "0.2.1"
+version = "0.2.2"
 authors = [{name = "Jubaer Al Mahmud", email = "jubaeralmahmud23@gmail.com"}]
 description = "Design-based motif totals and covariance for independently sampled nodes"
 readme = "README.md"

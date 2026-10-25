@@ -1,32 +1,24 @@
-MotifSurvey 0.2.1
+MotifSurvey 0.2.2
 =================
 
-This release adds a reproducible sampling-design case study for network closure.
-Three independent-vertex allocations use department-roster information and the
-same expected vertex budget. Separate pilot and evaluation samples distinguish
-design selection from evaluation; every candidate allocation is reported.
+This patch fixes probability input validation. NumPy Boolean and complex
+values, byte strings and non-scalar arrays are rejected rather than converted
+to probabilities. Overflowing integers now produce the documented ValueError
+and a clean CLI error. Valid Python/NumPy real scalars, Decimal and Fraction
+values remain supported. The closure-profile example applies corresponding
+checks to thresholds.
 
-The example computes the linear contrast 3 * triangles - 0.25 * wedges with
-its estimated variance, retaining the wedge/triangle covariance. It does not
-provide confidence intervals or validate the original collection mechanism.
+Three regression tests raise the package suite to 31 tests; the four research
+companion tests remain separate. Counting, weighting and covariance arithmetic
+are unchanged for valid inputs. Historical studies and benchmarks retain their
+original labels and are not relabeled as fresh experiments or timings.
 
-Changes
--------
-* Add the example, frozen protocol, exact reference-population covariance
-  oracle, full realization records and reproduction instructions.
-* Add five tests, including all four-node graphs checked against literal
-  motif pairs and an exhaustive sampling-distribution check.
-* Centralize version reporting so package, API and CLI versions agree.
-* Make failed numerical stress checks return a failing process status.
-* Add a portable installed-distribution checker and a release workflow that
-  requires the Windows/Linux/macOS matrix and minimum-dependency check.
+This release includes the research companion, all 27 sensitivity settings,
+native R interoperability records and the graph-to-survey workflow guide.
+The frozen v0.2.1 release is preserved. The new release workflow builds and
+checks its own wheel after the complete platform matrix passes.
 
-The estimation algorithm is unchanged from 0.2.0. Its core-file differences
-only import and report the shared version. Historical validation records keep
-their original version labels. CI artifacts identify their actual platform,
-interpreter, dependency versions, commit and run.
-
-The software supports a fixed simple undirected graph, independently selected
-vertices with known positive probabilities, and complete induced edges. It
-still enumerates every edge, wedge and triangle and enforces resource budgets.
-External adoption and independent human statistical review are not claimed.
+Known limitations remain: independent vertex selection with known positive
+probabilities, complete induced edges, simple undirected graphs, three motif
+types, explicit enumeration budgets and no automatic confidence intervals.
+No external adoption or independent human statistical review is claimed.

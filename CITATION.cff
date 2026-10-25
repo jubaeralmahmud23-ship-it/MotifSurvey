@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this software, cite MotifSurvey 0.2.1. An archival DOI has not yet been assigned."
+message: "If you use this software, cite MotifSurvey 0.2.2. An archival DOI has not yet been assigned."
 type: software
 title: MotifSurvey
-version: 0.2.1
+version: 0.2.2
 abstract: "Design-based edge, wedge and triangle totals and joint covariance under known independent vertex sampling."
 authors:
   - family-names: "Al Mahmud"

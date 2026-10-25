@@ -1,6 +1,18 @@
 Change log
 ==========
 
+0.2.2 - input validation audit
+------------------------------
+* Reject NumPy Boolean and complex probabilities, text/byte values and
+  non-scalar objects before float conversion. Keep finite real scalars,
+  Decimal values and Fraction values supported.
+* Convert overflowing real probabilities to a documented ValueError; the
+  CLI reports exit code 2 without a traceback.
+* Apply corresponding threshold checks in the closure-profile example.
+* Add three probability regression tests (31 package tests in total).
+* Preserve counting, weighting and covariance arithmetic for valid inputs.
+  Earlier benchmark and study records retain their original version labels.
+
 Research companion - 25 October 2026
 ------------------------------------
 * Add a reusable closure-profile example, explicit tool-selection guidance,

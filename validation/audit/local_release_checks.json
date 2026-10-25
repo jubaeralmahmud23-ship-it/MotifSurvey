@@ -1,0 +1,42 @@
+{
+  "version": "0.2.2",
+  "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "system": "Windows",
+  "machine": "AMD64",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "networkx": "3.6.1",
+  "github_run_id": null,
+  "github_sha": null,
+  "checks": {
+    "unit_tests": {
+      "returncode": 0,
+      "passed": true,
+      "count": 31
+    },
+    "cli": {
+      "returncode": 0,
+      "passed": true
+    },
+    "stress": {
+      "returncode": 0,
+      "passed": true,
+      "cases": 25,
+      "expected_rejections": 5
+    },
+    "exact_and_replay": {
+      "returncode": 0,
+      "passed": true,
+      "exact_samples": 896,
+      "public_replays": 60,
+      "cached_native_comparisons": 58
+    },
+    "dependencies": {
+      "returncode": 0,
+      "passed": true
+    }
+  },
+  "passed": true,
+  "blas_thread_limit": 1
+}

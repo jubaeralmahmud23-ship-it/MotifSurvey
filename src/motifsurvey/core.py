@@ -8,6 +8,8 @@ The formula is established sampling theory; this is an independent implementatio
 """
 from itertools import combinations
 from math import prod, isfinite
+from numbers import Real
+from decimal import Decimal
 import hashlib
 import json
 import numpy as np
@@ -43,10 +45,10 @@ def estimate(nodes, edges, probabilities, *, design, complete_induced,
     p={}
     for v in sorted(nodes):
         value=probabilities[v]
-        if isinstance(value,(bool,str)):
-            raise ValueError("Probabilities must be numeric, finite and in (0,1]")
+        if isinstance(value,(bool,np.bool_)) or not isinstance(value,(Real,Decimal)):
+            raise ValueError("Probabilities must be real numeric scalars, finite and in (0,1]")
         try:value=float(value)
-        except (TypeError,ValueError):raise ValueError("Invalid probability") from None
+        except (TypeError,ValueError,OverflowError):raise ValueError("Invalid probability") from None
         if not isfinite(value) or not 0<value<=1:raise ValueError("Probabilities must be in (0,1]")
         p[v]=value
     adj={v:set() for v in sorted(nodes)};unique=set()

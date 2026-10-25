@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tests": 4,
+  "python": "3.12.14",
+  "system": "Windows",
+  "software_version": "0.2.2",
+  "github_sha": null,
+  "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+  "scope": "Additional companion tests; cached native outputs are checked, R is not executed here"
+}

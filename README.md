@@ -2,7 +2,7 @@
 
 Estimate population edge, wedge and triangle totals from an induced graph obtained by independently sampling vertices with known inclusion probabilities. MotifSurvey returns the three Horvitz-Thompson totals and their joint estimated design covariance. Probabilities may differ between vertices.
 
-Version **0.2.1** is [publicly released](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1). All [13 hosted checks](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/runs/40166324430) passed across Windows, Linux and macOS, including the minimum NumPy dependency. The release adds a network-closure research example and stronger validation. No archival DOI has been assigned.
+Version **0.2.2** fixes invalid probability conversions found during the mathematics and code audit. Valid-input estimation arithmetic is unchanged. The frozen [0.2.1 release](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1) and its evidence remain available. The [0.2.2 release workflow](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/actions/workflows/release.yml) runs the full platform matrix before publishing assets. No archival DOI has been assigned.
 
 ## Install
 
@@ -13,7 +13,7 @@ python -m pip install .
 python -m motifsurvey examples/tiny.json
 ```
 
-From a supplied wheel, use `python -m pip install path/to/motifsurvey_prototype-0.2.1-py3-none-any.whl`. The distribution name remains `motifsurvey-prototype`; the import and command name are `motifsurvey`. NumPy is the only runtime dependency. No compiled extension is included.
+From a supplied wheel, use `python -m pip install path/to/motifsurvey_prototype-0.2.2-py3-none-any.whl`. The distribution name remains `motifsurvey-prototype`; the import and command name are `motifsurvey`. NumPy is the only runtime dependency. No compiled extension is included.
 
 ## A small example
 
@@ -83,10 +83,14 @@ Primary references:
 
 - Horvitz and Thompson (1952), [A generalization of sampling without replacement from a finite universe](https://doi.org/10.1080/01621459.1952.10483446).
 - Klusowski and Wu (2018), [Counting Motifs with Graph Sampling](https://proceedings.mlr.press/v75/klusowski18a.html).
-- Bhattacharya, Das and Mukherjee, [Motif Estimation via Subgraph Sampling: The Fourth Moment Phenomenon](https://arxiv.org/abs/2011.03026v2), version 2, 2024. The uniform-probability observable overlap variance appears in Proposition 2.4. This version is identified explicitly because the printed expression differs from an earlier published-copy PDF.
+- Bhattacharya, Das and Mukherjee, [Motif Estimation via Subgraph Sampling: The Fourth Moment Phenomenon](https://arxiv.org/abs/2011.03026v2), version 2, 2024. The uniform-probability overlap variance appears in Proposition 2.4, with HT rescaling by p^(-2k) for k-vertex motifs. This version is identified explicitly because the printed expression differs from an earlier published-copy PDF.
 - [R sampling](https://cran.r-project.org/package=sampling) and [R survey](https://cran.r-project.org/package=survey).
 
-## Release provenance
+## Version 0.2.2 audit
+
+The [audit](validation/audit/README.rst) checks 2,048 sample calculations using exact fractions and recomputes all 2,400 archived contrast records. The local installed package passed 31 core tests, four companion tests, the high-precision and exhaustive checks, and cached replays. [Reference checks](docs/REFERENCE_AUDIT.rst) explain the sources and scope of each comparison. Historical studies retain their original versions and were not rerun as new experiments.
+
+## Historical 0.2.1 release provenance
 
 The tested source is commit `e5235add0fb3cb8fe768e6baf846c894438c7b56` (tag `v0.2.1`). [Hosted reports](docs/HOSTED_CHECKS_v021.json) record the actual environments and numerical checks. The [release record](docs/PUBLIC_RELEASE_v021.json) records anonymously verified downloads and hashes. Hosted jobs built the tagged source; the attached local wheel was separately verified on Windows. Compatibility replays are not new scientific samples.
 

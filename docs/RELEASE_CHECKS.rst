@@ -1,8 +1,18 @@
 Release checks
 ==============
 
+Version 0.2.2 fixes invalid scalar conversions. Its local installed wheel
+passed 31 core tests, four companion tests and the complete release checker.
+The exact-fraction audit covers 128 sampling laws and 2,048 sample calculations;
+all 2,400 archived contrast records were recomputed. See validation/audit/.
+The release workflow gates publication on the 13-job platform matrix.
+The new core SHA256 is:
+b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1
+
+Historical records below retain their original versions.
+
 The release preparation report in ``validation/release/`` records executed
-installation and numerical checks. The current 0.2.1 core hash is:
+installation and numerical checks. The historical 0.2.1 core hash is:
 4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31
 Compared byte-for-byte after normalizing line endings with the archived 0.2.0
 wheel, the only source changes import and report the shared version string.

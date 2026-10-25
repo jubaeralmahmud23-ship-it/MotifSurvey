@@ -36,6 +36,27 @@ class TestMotifSurvey(unittest.TestCase):
         for p in [dict(a=.5,b=.5),dict(a=.5,b=.5,c=.5,d=.5)]:
             x=payload();x['probabilities']=p
             with self.assertRaises(ValueError):estimate(**x)
+    def test_rejects_nonreal_probability_scalars(self):
+        for value in [np.bool_(True),np.bool_(False),complex(.5,0),np.complex128(.5+.2j),np.complex64(.5),b'0.5',bytearray(b'0.5'),np.array(.5)]:
+            x=payload();x['probabilities']['a']=value
+            with self.subTest(value_type=type(value).__name__),self.assertRaises(ValueError):estimate(**x)
+    def test_huge_numeric_probability_is_clean_error(self):
+        x=payload();x['probabilities']['a']=10**5000
+        with self.assertRaises(ValueError):estimate(**x)
+        with tempfile.TemporaryDirectory() as directory:
+            source=Path(directory)/'input.json'
+            # 401 digits are below Python's JSON digit limit but overflow float.
+            x['probabilities']['a']=10**400;source.write_text(json.dumps(x))
+            process=subprocess.run([sys.executable,'-m','motifsurvey',str(source)],capture_output=True,text=True)
+            self.assertEqual(process.returncode,2)
+            self.assertNotIn('Traceback',process.stderr)
+    def test_supported_real_scalar_probabilities(self):
+        from fractions import Fraction
+        from decimal import Decimal
+        expected=estimate(**payload())['estimated_totals']
+        for value in [np.float32(.5),np.float64(.5),Decimal('0.5'),Fraction(1,2)]:
+            x=payload();x['probabilities']['a']=value
+            self.assertEqual(estimate(**x)['estimated_totals'],expected)
     def test_duplicate_nodes(self):
         x=payload();x['nodes'].append('a')
         with self.assertRaises(ValueError):estimate(**x)

@@ -38,6 +38,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Verify research companion
         run: python tools/check_research_companion.py --output check-results/companion
+      - name: Audit exact identities and archived results
+        run: python validation/audit/run_audit.py --output check-results/audit.json
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
@@ -57,6 +59,8 @@ jobs:
       - run: python -c "import glob,subprocess,sys; subprocess.check_call([sys.executable,'-m','pip','install','--no-deps',glob.glob('dist/*.whl')[0]])"
       - run: python tools/check_release.py --output check-results/minimum
       - run: python tools/check_research_companion.py --output check-results/companion
+      - name: Audit exact identities and archived results
+        run: python validation/audit/run_audit.py --output check-results/audit.json
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         if: always()
         with:

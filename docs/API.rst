@@ -10,7 +10,8 @@ Callers must pass ``design="independent_node"`` and ``complete_induced=True``.
 ``probabilities`` maps exactly those IDs to finite numeric values in (0, 1].
 The complete population and its unselected vertices are not supplied.
 Positive inclusion probability for every population vertex is an external
-design requirement. Numeric strings and Boolean probabilities are rejected.
+design requirement. Python and NumPy Boolean/complex values, strings, bytes and non-scalar arrays
+are rejected. Finite real scalars, including Decimal and Fraction, are supported.
 
 The observed graph must be simple, undirected and completely induced by the
 selected vertices. Any conversion from a directed graph changes the estimand

@@ -4,7 +4,8 @@ Statistical specification and audit
 This is an internal mathematical audit, not independent human peer review.
 The estimator and covariance are classical sampling theory. The 2024 revision
 of Bhattacharya, Das and Mukherjee gives the uniform-probability overlap
-variance explicitly (Proposition 2.4): https://arxiv.org/abs/2011.03026v2.
+variance explicitly (Proposition 2.4), before HT rescaling by p^(-2k)
+for a k-vertex motif: https://arxiv.org/abs/2011.03026v2.
 
 Population and observations
 ---------------------------

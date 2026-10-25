@@ -1,0 +1,172 @@
+{
+  "version": "0.2.2",
+  "core_sha256": "b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1",
+  "rational_audit": {
+    "graphs": 64,
+    "probability_regimes": 2,
+    "exact_sampling_laws": 128,
+    "sample_calculations": 2048,
+    "expectation_identities_exact_in_fraction_arithmetic": true,
+    "maximum_scaled_sample_covariance_error": 5.448251009023132e-16
+  },
+  "reported_result_audit": {
+    "recorded_realizations_checked": 2400,
+    "mse_and_variance_summaries_reproduced": true,
+    "maximum_mean_variance_discrepancy_in_mcse": 3.03481200623648,
+    "scope": "Algebraic recomputation from all saved totals/covariances, not new sampling runs"
+  },
+  "teaching_examples": {
+    "single_edge_unequal": {
+      "software": "motifsurvey-prototype",
+      "version": "0.2.2",
+      "design": "independent_node",
+      "estimand": "Fixed-population non-induced motif totals",
+      "motif_order": [
+        "edges",
+        "wedges",
+        "triangles"
+      ],
+      "observed_counts": [
+        1,
+        0,
+        0
+      ],
+      "estimated_totals": [
+        8.0,
+        0.0,
+        0.0
+      ],
+      "estimated_covariance": [
+        [
+          56.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "warnings": [
+        "zero_observed_count_does_not_establish_population_absence",
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "diagnostics": {
+        "observed_nodes": 2,
+        "observed_edges": 1,
+        "motif_instances": 1,
+        "subset_keys": 3,
+        "minimum_covariance_eigenvalue": 0.0,
+        "covariance_absolute_term_sum": [
+          [
+            104.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "input_sha256": "002ce0fb6837ac8c2e518481ee505010ee3db5a0e81a155109e7103212bcc243"
+    },
+    "observed_triangle_half_probabilities": {
+      "software": "motifsurvey-prototype",
+      "version": "0.2.2",
+      "design": "independent_node",
+      "estimand": "Fixed-population non-induced motif totals",
+      "motif_order": [
+        "edges",
+        "wedges",
+        "triangles"
+      ],
+      "observed_counts": [
+        3,
+        3,
+        1
+      ],
+      "estimated_totals": [
+        12.0,
+        24.0,
+        8.0
+      ],
+      "estimated_covariance": [
+        [
+          84.0,
+          216.0,
+          72.0
+        ],
+        [
+          216.0,
+          504.0,
+          168.0
+        ],
+        [
+          72.0,
+          168.0,
+          56.0
+        ]
+      ],
+      "warnings": [
+        "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "diagnostics": {
+        "observed_nodes": 3,
+        "observed_edges": 3,
+        "motif_instances": 7,
+        "subset_keys": 7,
+        "minimum_covariance_eigenvalue": -7.369093874941459,
+        "covariance_absolute_term_sum": [
+          [
+            108.0,
+            360.0,
+            120.0
+          ],
+          [
+            360.0,
+            1368.0,
+            456.0
+          ],
+          [
+            120.0,
+            456.0,
+            152.0
+          ]
+        ]
+      },
+      "input_sha256": "5d7787f8b2b7dce60e5491052903451788bfebbf28d117935d7850fb369ba1eb"
+    },
+    "closure_contrast": {
+      "threshold": 0.25,
+      "estimate": 18.0,
+      "estimated_variance": 283.5,
+      "diagonal_only_variance": 535.5,
+      "covariance_contribution": -252.0,
+      "negative_estimated_variance": false
+    },
+    "triangle_population_distribution": {
+      "probability_observed": 0.125,
+      "ht_triangle_when_observed": 8,
+      "ht_triangle_otherwise": 0,
+      "expectation": 1,
+      "true_variance": 7,
+      "estimated_variance_when_observed": 56,
+      "expected_estimated_variance": 7
+    }
+  },
+  "passed": true
+}
