@@ -6,8 +6,9 @@ contributions, no competing interests, review of the manuscript and acceptance
 of responsibility for the content. The manuscript now includes the confirmed
 CRediT and competing-interest statements and no draft labels.
 
-Publication and simultaneous-submission history have not yet been confirmed.
-No manuscript submission is recorded. Live portal requirements and current
+The author also confirmed that the manuscript is unpublished and not under
+consideration elsewhere. No manuscript submission is recorded. Live portal
+requirements and current
 publication charges remain unverified because the complete guide is inaccessible.
 
 Factual disclosures of assistance remain in the manuscript's Methods section

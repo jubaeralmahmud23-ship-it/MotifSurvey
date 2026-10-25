@@ -14,7 +14,8 @@ b26c1e4531c6b96e9bfc3b4c34ec55bd78e8cd032498b2cec25fb2f0c31c4cc1
 
 The author confirmed review, contribution roles, sole authorship and no
 competing interests on 25 October 2026. See MANUSCRIPT_STATUS.rst for the
-current manuscript status and remaining submission-history confirmation.
+current manuscript status, including confirmed unpublished status and no
+simultaneous submission.
 
 Historical records below retain their original versions.
 
