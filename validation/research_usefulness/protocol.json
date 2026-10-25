@@ -1,0 +1,12 @@
+{
+  "status": "Supplementary sensitivity analysis specified after the original design case; not independent confirmation or external preregistration",
+  "reference": "Same checksum-verified email-Eu-core projection and department roster as the original design case",
+  "expected_vertex_budgets": [100.5, 201.0, 402.0],
+  "allocation_plans": ["uniform", "small_department", "large_department"],
+  "closure_thresholds": [0.15, 0.25, 0.35],
+  "reanalysis": "Use all 600 archived evaluation realizations per allocation at budget 201. Compare HT totals/contrast with observed counts divided by powers of the mean vertex probability. This latter diagnostic is not a competing package or recommended estimator for unequal probabilities.",
+  "reference_oracles": "Exact design covariance and exact expectation of observed counts. Report all 27 budget/plan/threshold combinations; no selection of favorable cases.",
+  "native_comparison_seed": 2026103500,
+  "native_comparison": "First evaluation seed under each allocation at budget 201; unmodified R survey 4.5 via the existing native_compare.R graph adapter. Compare totals, full covariance and all three closure contrasts. Single-run timings are provenance, not new performance benchmarks.",
+  "restrictions": "No new population, independent users, confidence coverage, optimal sampling claim or new covariance-estimator Monte Carlo runs. Full reference graph is needed for the exact planning oracle. Sampled analysis uses only observed vertices, edges and known probabilities. Keep all outcomes, including unfavorable ones."
+}

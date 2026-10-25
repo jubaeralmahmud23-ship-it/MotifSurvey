@@ -45,6 +45,8 @@ Counts are non-induced. A wedge is a center with an unordered pair of neighbors;
 
 ## Computation and comparisons
 
+For a research-oriented walkthrough, start with [Choosing tools and analyzing a sampled network](docs/RESEARCH_WORKFLOW.rst). It explains the graph-to-survey conversion, when R survey or a graph counter is the better fit, and how to reuse one result for closure contrasts. The [research companion](validation/research_usefulness/README.rst) adds all 27 budget/allocation/threshold settings and actual R comparisons on the same sampled graphs. These additions leave the released 0.2.1 estimator unchanged.
+
 The estimators are established survey-sampling theory. MotifSurvey aggregates weighted motif incidences by nonempty vertex subsets and computes the covariance in blocks of at most 512 keys. This avoids a motif-by-motif covariance matrix while still enumerating every motif. It is an independent implementation, without a claim of a new estimator or first use of inclusion-exclusion.
 
 Default limits are 200,000 motif instances and 1,000,000 subset keys. These are count budgets, not a guaranteed RAM bound. Dense graphs and high-degree vertices can exceed them. A graph that is too large is rejected rather than silently sampled or truncated.
@@ -73,7 +75,7 @@ The public experiments treat the stored networks as fixed artificial populations
 
 The package and supplied original validation scripts use the [MIT License](Licence.txt). Third-party libraries and public datasets retain their own terms; see [dependencies and data](docs/DEPENDENCIES.rst). Datasets and third-party package source are not bundled.
 
-Maintainer: Jubaer Al Mahmud, Independent researcher, Dhaka, Bangladesh; jubaeralmahmud23@gmail.com. Intended repository: [MotifSurvey](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey). Public access and a versioned release at that address have not yet been verified. Citation metadata is in `CITATION.cff`; no archival DOI has been assigned. No external user adoption or independent human statistical review is claimed.
+Maintainer: Jubaer Al Mahmud, Independent researcher, Dhaka, Bangladesh; jubaeralmahmud23@gmail.com. The [repository](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey) and [versioned release](https://github.com/jubaeralmahmud23-ship-it/MotifSurvey/releases/tag/v0.2.1) are public and their downloads have been verified. Citation metadata is in `CITATION.cff`; no archival DOI has been assigned. No external user adoption or independent human statistical review is claimed.
 
 Primary references:
 

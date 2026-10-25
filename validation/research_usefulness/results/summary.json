@@ -1,0 +1,733 @@
+{
+  "protocol": {
+    "status": "Supplementary sensitivity analysis specified after the original design case; not independent confirmation or external preregistration",
+    "reference": "Same checksum-verified email-Eu-core projection and department roster as the original design case",
+    "expected_vertex_budgets": [
+      100.5,
+      201.0,
+      402.0
+    ],
+    "allocation_plans": [
+      "uniform",
+      "small_department",
+      "large_department"
+    ],
+    "closure_thresholds": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "reanalysis": "Use all 600 archived evaluation realizations per allocation at budget 201. Compare HT totals/contrast with observed counts divided by powers of the mean vertex probability. This latter diagnostic is not a competing package or recommended estimator for unequal probabilities.",
+    "reference_oracles": "Exact design covariance and exact expectation of observed counts. Report all 27 budget/plan/threshold combinations; no selection of favorable cases.",
+    "native_comparison_seed": 2026103500,
+    "native_comparison": "First evaluation seed under each allocation at budget 201; unmodified R survey 4.5 via the existing native_compare.R graph adapter. Compare totals, full covariance and all three closure contrasts. Single-run timings are provenance, not new performance benchmarks.",
+    "restrictions": "No new population, independent users, confidence coverage, optimal sampling claim or new covariance-estimator Monte Carlo runs. Full reference graph is needed for the exact planning oracle. Sampled analysis uses only observed vertices, edges and known probabilities. Keep all outcomes, including unfavorable ones."
+  },
+  "protocol_sha256": "483080c65c2fabda4c7ad1c1d97f9ed7f28bb8204d53abdc2f8af31ff55fe253",
+  "sources": {
+    "graph_sha256": "4b47acdb80197b085fe63c819c357ae488131ee904ed93d1b219a68b0f9e245f",
+    "labels_sha256": "e5abe5b4581a480032a63adcf2576c161785f45692642c6ebb0b1276f0f33669"
+  },
+  "original_realizations_sha256": "07f6d476e79840097287a3af4f1c857b4be8ff0bc99bc571b7e33ef4b7e5fdc1",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "networkx": "3.6.1",
+    "motifsurvey": "0.2.1",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "core_sha256": "4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31",
+  "population_totals": [
+    16064.0,
+    1183216.0,
+    105461.0
+  ],
+  "sensitivity": [
+    {
+      "expected_nodes": 100.5,
+      "allocation": "uniform",
+      "probability_range": [
+        0.1,
+        0.1
+      ],
+      "expected_observed_counts": [
+        160.63999999999888,
+        1183.2160000000017,
+        105.4610000001395
+      ],
+      "exact_covariance": [
+        [
+          22888224.0,
+          3074784660.0,
+          300996315.0
+        ],
+        [
+          3074784660.0,
+          455791577832.0,
+          45126821952.0
+        ],
+        [
+          300996315.0,
+          45126821952.0,
+          4872502791.0
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        -7.105427357601002e-13,
+        1.1102230246251565e-13,
+        1.3224976669334865e-10
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 13493695863.419998,
+          "exact_standard_deviation": 116162.36853396197,
+          "exact_diagonal_only_variance": 54107835620.22,
+          "mean_probability_correction_expectation": 138900.60000041826
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 4649265805.5,
+          "exact_standard_deviation": 68185.524897151,
+          "exact_diagonal_only_variance": 72339498733.5,
+          "mean_probability_correction_expectation": 20579.000000418106
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 4920667304.219996,
+          "exact_standard_deviation": 70147.46826664521,
+          "exact_diagonal_only_variance": 99686993403.41998,
+          "mean_probability_correction_expectation": -97742.59999958199
+        }
+      ]
+    },
+    {
+      "expected_nodes": 100.5,
+      "allocation": "small_department",
+      "probability_range": [
+        0.052653966698383486,
+        0.5497235512410925
+      ],
+      "expected_observed_counts": [
+        178.4922071757804,
+        1510.4515459734514,
+        132.72697912066002
+      ],
+      "exact_covariance": [
+        [
+          24882612.418518055,
+          3218527395.324216,
+          321639704.5267994
+        ],
+        [
+          3218527395.324216,
+          462868381657.9715,
+          46936300804.149055
+        ],
+        [
+          321639704.5267994,
+          46936300804.149055,
+          5216930277.667963
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        11.113176777751743,
+        27.65645038382265,
+        25.854087407344895
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 15124240362.581875,
+          "exact_standard_deviation": 122980.65035842783,
+          "exact_diagonal_only_variance": 57366911086.316025,
+          "mean_probability_correction_expectation": 171613.20546596232
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 5477195146.411301,
+          "exact_standard_deviation": 74008.07487302518,
+          "exact_diagonal_only_variance": 75881646352.63489,
+          "mean_probability_correction_expectation": 20568.050868617196
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 5087517563.400156,
+          "exact_standard_deviation": 71326.83620770065,
+          "exact_diagonal_only_variance": 103653749252.11316,
+          "mean_probability_correction_expectation": -130477.1037287279
+        }
+      ]
+    },
+    {
+      "expected_nodes": 100.5,
+      "allocation": "large_department",
+      "probability_range": [
+        0.05,
+        0.15902051164893133
+      ],
+      "expected_observed_counts": [
+        155.2693754178201,
+        1040.9996079891487,
+        97.08407805112682
+      ],
+      "exact_covariance": [
+        [
+          30166778.235790726,
+          4184520257.7950873,
+          404910445.6166493
+        ],
+        [
+          4184520257.7950873,
+          640962633333.6787,
+          63083716714.82585
+        ],
+        [
+          404910445.6166493,
+          63083716714.82585,
+          6856275502.628411
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        -3.343267294683727,
+        -12.019478439342567,
+        -7.943146707193371
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 19352793730.320213,
+          "exact_standard_deviation": 139114.3189262709,
+          "exact_diagonal_only_variance": 76128138773.66347,
+          "mean_probability_correction_expectation": 135102.29295500813
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 7141069034.771851,
+          "exact_standard_deviation": 84504.8462206272,
+          "exact_diagonal_only_variance": 101766644107.01062,
+          "mean_probability_correction_expectation": 31002.332156093267
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 7748597005.897068,
+          "exact_standard_deviation": 88026.11547658495,
+          "exact_diagonal_only_variance": 140224402107.0313,
+          "mean_probability_correction_expectation": -73097.62864282157
+        }
+      ]
+    },
+    {
+      "expected_nodes": 201.0,
+      "allocation": "uniform",
+      "probability_range": [
+        0.2,
+        0.2
+      ],
+      "expected_observed_counts": [
+        642.5599999999955,
+        9465.728000000014,
+        843.688000001116
+      ],
+      "exact_covariance": [
+        [
+          9851264.0,
+          1312914660.0,
+          127448480.0
+        ],
+        [
+          1312914660.0,
+          190155125872.0,
+          18556061072.0
+        ],
+        [
+          127448480.0,
+          18556061072.0,
+          1931300476.0
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        -7.105427357601002e-13,
+        1.1102230246251565e-13,
+        1.3224976669334865e-10
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 4959739651.320001,
+          "exact_standard_deviation": 70425.41907095762,
+          "exact_diagonal_only_variance": 21660194616.12,
+          "mean_probability_correction_expectation": 138900.60000041826
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 1432308043.0,
+          "exact_standard_deviation": 37845.845782595476,
+          "exact_diagonal_only_variance": 29266399651.0,
+          "mean_probability_correction_expectation": 20579.000000418106
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 1707978952.1199994,
+          "exact_standard_deviation": 41327.70199418302,
+          "exact_diagonal_only_variance": 40675707203.31999,
+          "mean_probability_correction_expectation": -97742.59999958199
+        }
+      ]
+    },
+    {
+      "expected_nodes": 201.0,
+      "allocation": "small_department",
+      "probability_range": [
+        0.10562517665754201,
+        0.8
+      ],
+      "expected_observed_counts": [
+        717.7861936601716,
+        12178.40878524885,
+        1071.3246668574193
+      ],
+      "exact_covariance": [
+        [
+          10663542.751639448,
+          1363529437.1676483,
+          135044243.93241078
+        ],
+        [
+          1363529437.1676483,
+          190517953815.19986,
+          19034641532.00908
+        ],
+        [
+          135044243.93241078,
+          19034641532.00908,
+          2029414278.4858732
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        11.707263704583482,
+        28.657920291485752,
+        26.981143130804174
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 5420205088.406687,
+          "exact_standard_deviation": 73622.04213689461,
+          "exact_diagonal_only_variance": 22551382467.214855,
+          "mean_probability_correction_expectation": 173401.58534811626
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 1620138321.8092318,
+          "exact_standard_deviation": 40250.94187480874,
+          "exact_diagonal_only_variance": 30172100619.822853,
+          "mean_probability_correction_expectation": 21171.47553250566
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 1630430631.5157747,
+          "exact_standard_deviation": 40378.59125224374,
+          "exact_diagonal_only_variance": 41603177848.73484,
+          "mean_probability_correction_expectation": -131058.63428310485
+        }
+      ]
+    },
+    {
+      "expected_nodes": 201.0,
+      "allocation": "large_department",
+      "probability_range": [
+        0.05,
+        0.3207723717012502
+      ],
+      "expected_observed_counts": [
+        622.6378364688877,
+        8348.369680451076,
+        783.6307320369528
+      ],
+      "exact_covariance": [
+        [
+          13747587.664085804,
+          1885683434.5161982,
+          179127105.5787187
+        ],
+        [
+          1885683434.5161982,
+          279964040156.8323,
+          26839268568.289906
+        ],
+        [
+          179127105.5787187,
+          26839268568.289906,
+          2769910847.8493333
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        -3.100436306510268,
+        -11.804251290010924,
+        -7.1184214974075015
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 7073046822.711812,
+          "exact_standard_deviation": 84101.40797104298,
+          "exact_diagonal_only_variance": 31228388534.172726,
+          "mean_probability_correction_expectation": 137329.59300539957
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 2168047288.011159,
+          "exact_standard_deviation": 46562.29470302295,
+          "exact_diagonal_only_variance": 42426950140.446014,
+          "mean_probability_correction_expectation": 32974.971999761125
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 2862328556.447153,
+          "exact_standard_deviation": 53500.7341673659,
+          "exact_diagonal_only_variance": 59224792549.85595,
+          "mean_probability_correction_expectation": -71379.64900587726
+        }
+      ]
+    },
+    {
+      "expected_nodes": 402.0,
+      "allocation": "uniform",
+      "probability_range": [
+        0.4,
+        0.4
+      ],
+      "expected_observed_counts": [
+        2570.239999999982,
+        75725.82400000011,
+        6749.504000008928
+      ],
+      "exact_covariance": [
+        [
+          3633984.0,
+          482282441.25,
+          46606743.75
+        ],
+        [
+          482282441.25,
+          69030701310.75,
+          6686114128.875
+        ],
+        [
+          46606743.75,
+          6686114128.875,
+          683280709.125
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        -7.105427357601002e-13,
+        1.1102230246251565e-13,
+        1.3224976669334865e-10
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 1685214445.6293752,
+          "exact_standard_deviation": 41051.363505118505,
+          "exact_diagonal_only_variance": 7702717161.616875,
+          "mean_probability_correction_expectation": 138900.60000041826
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 434774020.734375,
+          "exact_standard_deviation": 20851.235472613487,
+          "exact_diagonal_only_variance": 10463945214.046875,
+          "mean_probability_correction_expectation": 20579.000000418106
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 564947622.0543745,
+          "exact_standard_deviation": 23768.62684410638,
+          "exact_diagonal_only_variance": 14605787292.691874,
+          "mean_probability_correction_expectation": -97742.59999958199
+        }
+      ]
+    },
+    {
+      "expected_nodes": 402.0,
+      "allocation": "small_department",
+      "probability_range": [
+        0.21738557544825876,
+        0.8
+      ],
+      "expected_observed_counts": [
+        2913.4589751276017,
+        99858.72174324046,
+        8906.606478820828
+      ],
+      "exact_covariance": [
+        [
+          3842433.7277537663,
+          482794408.8650677,
+          47745971.3993538
+        ],
+        [
+          482794408.8650677,
+          65724296967.876366,
+          6548402238.488078
+        ],
+        [
+          47745971.3993538,
+          6548402238.488078,
+          686754292.7353654
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        13.353576908288778,
+        31.86878196695546,
+        31.959422185998033
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 1766023301.7562368,
+          "exact_standard_deviation": 42024.08002272312,
+          "exact_diagonal_only_variance": 7659585316.395506,
+          "mean_probability_correction_expectation": 183453.29960900644
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 465953837.37844443,
+          "exact_standard_deviation": 21585.9638973673,
+          "exact_diagonal_only_variance": 10288557195.110561,
+          "mean_probability_correction_expectation": 27424.046885193267
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 480370312.35817933,
+          "exact_standard_deviation": 21917.3518555089,
+          "exact_diagonal_only_variance": 14232015013.183142,
+          "mean_probability_correction_expectation": -128605.20583861985
+        }
+      ]
+    },
+    {
+      "expected_nodes": 402.0,
+      "allocation": "large_department",
+      "probability_range": [
+        0.06146463591666651,
+        0.6417096384285905
+      ],
+      "expected_observed_counts": [
+        2491.6093324394724,
+        66830.52872323937,
+        6273.788693671967
+      ],
+      "exact_covariance": [
+        [
+          5524936.04572248,
+          757572289.0592014,
+          71243006.10381183
+        ],
+        [
+          757572289.0592014,
+          111162954227.01228,
+          10505320132.195995
+        ],
+        [
+          71243006.10381183,
+          10505320132.195995,
+          1054767470.3892152
+        ]
+      ],
+      "mean_probability_correction_relative_bias_percent": [
+        -3.059273358150527,
+        -11.746713085301842,
+        -7.048152076479031
+      ],
+      "profiles": [
+        {
+          "threshold": 0.15,
+          "target": 138900.6,
+          "exact_variance": 2539285584.6343164,
+          "exact_standard_deviation": 50391.32449771802,
+          "exact_diagonal_only_variance": 11994073703.610714,
+          "mean_probability_correction_expectation": 137449.79332078111
+        },
+        {
+          "threshold": 0.25,
+          "target": 20579.0,
+          "exact_variance": 682611674.3972111,
+          "exact_standard_deviation": 26126.83820130578,
+          "exact_diagonal_only_variance": 16440591872.691204,
+          "mean_probability_correction_expectation": 33027.09219071962
+        },
+        {
+          "threshold": 0.35,
+          "target": -97742.59999999998,
+          "exact_variance": 1049196848.7003517,
+          "exact_standard_deviation": 32391.30822767663,
+          "exact_diagonal_only_variance": 23110369126.311943,
+          "mean_probability_correction_expectation": -71395.60893934185
+        }
+      ]
+    }
+  ],
+  "archived_reanalysis": {
+    "uniform": {
+      "realizations": 600,
+      "methods": {
+        "ht": {
+          "mean_totals": [
+            16046.624999999996,
+            1167239.1666666665,
+            103706.87499999999
+          ],
+          "relative_mean_error_percent": [
+            -0.10816110557770875,
+            -1.3502888173700711,
+            -1.6632925915741503
+          ],
+          "mean_mcse": [
+            122.34331842950537,
+            16400.602043426585,
+            1590.0330111016394
+          ],
+          "mean_contrast": 19310.83333333333,
+          "contrast_mean_error_mcse": -0.9057103719406197,
+          "contrast_mse": 1175967049.255208
+        },
+        "mean_probability_correction": {
+          "mean_totals": [
+            16046.624999999996,
+            1167239.1666666665,
+            103706.87499999999
+          ],
+          "relative_mean_error_percent": [
+            -0.10816110557770875,
+            -1.3502888173700711,
+            -1.6632925915741503
+          ],
+          "mean_mcse": [
+            122.34331842950537,
+            16400.602043426585,
+            1590.0330111016394
+          ],
+          "mean_contrast": 19310.83333333333,
+          "contrast_mean_error_mcse": -0.9057103719406197,
+          "contrast_mse": 1175967049.255208
+        }
+      }
+    },
+    "small_department": {
+      "realizations": 600,
+      "methods": {
+        "ht": {
+          "mean_totals": [
+            15970.625059181632,
+            1160796.123885038,
+            102945.15233213603
+          ],
+          "relative_mean_error_percent": [
+            -0.5812683068872504,
+            -1.8948252994349213,
+            -2.385571602643599
+          ],
+          "mean_mcse": [
+            127.37840948688755,
+            16490.22369169018,
+            1643.8996913093972
+          ],
+          "mean_contrast": 18636.42602514862,
+          "contrast_mean_error_mcse": -1.3260793009669767,
+          "contrast_mse": 1289187406.0879486
+        },
+        "mean_probability_correction": {
+          "mean_totals": [
+            17771.416666666664,
+            1488160.833333333,
+            130079.58333333331
+          ],
+          "relative_mean_error_percent": [
+            10.628838811420959,
+            25.772541390019498,
+            23.343779533034304
+          ],
+          "mean_mcse": [
+            131.6743951702181,
+            19901.825225949568,
+            2029.104741201764
+          ],
+          "mean_contrast": 18198.54166666666,
+          "contrast_mean_error_mcse": -1.3097144324818355,
+          "contrast_mse": 1984434060.8697908
+        }
+      }
+    },
+    "large_department": {
+      "realizations": 600,
+      "methods": {
+        "ht": {
+          "mean_totals": [
+            16048.473762500491,
+            1173934.3562405237,
+            104699.9559947605
+          ],
+          "relative_mean_error_percent": [
+            -0.09665237487244127,
+            -0.7844420426596832,
+            -0.721635491072059
+          ],
+          "mean_mcse": [
+            147.81552308937341,
+            20422.966315357495,
+            1979.2689791506048
+          ],
+          "mean_contrast": 20616.27892415002,
+          "contrast_mean_error_mcse": 0.021041202057398664,
+          "contrast_mse": 1880237847.174183
+        },
+        "mean_probability_correction": {
+          "mean_totals": [
+            15584.70833333333,
+            1040579.5833333331,
+            97937.08333333331
+          ],
+          "relative_mean_error_percent": [
+            -2.9836383632138253,
+            -12.054977000536404,
+            -7.134311894128342
+          ],
+          "mean_mcse": [
+            116.87933642017731,
+            14572.820519328197,
+            1445.1855348823756
+          ],
+          "mean_contrast": 33666.35416666666,
+          "contrast_mean_error_mcse": 10.269763882620337,
+          "contrast_mse": 1144047600.9218743
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Retrospective companion to the original design case; released core unchanged",
+  "repairs_before_final_results": [
+    "Profile ordering initially used singular motif names; corrected to the released plural API names.",
+    "The first-moment diagnostic initially assumed sorted NetworkX neighbor iteration. Uniform-probability expectation check exposed missing triangles; sorted neighbor enumeration and reverse-insertion exhaustive tests corrected the new diagnostic. Released estimation core and previous study were unaffected.",
+    "A new test initially omitted required explicit design keywords; the test call was corrected."
+  ],
+  "final_results": "verified/summary.json; all nine plan/budget settings recomputed after diagnostic repair",
+  "native_reuse": "R fixture and expected-output bytes identical before and after first-moment diagnostic repair; actual three native R runs retained without re-running identical inputs.",
+  "warnings": "R reported Windows C.UTF-8 locale setup warnings; it completed all three calculations successfully."
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Three actual R survey runs on the first evaluation sample under each allocation; nine contrast/variance pairs. Not independent datasets or a new timing benchmark.",
+  "R": "R version 4.6.1 (2026-06-24 ucrt)",
+  "versions": {
+    "sampling": "2.11",
+    "survey": "4.5",
+    "Matrix": "1.7.5",
+    "jsonlite": "2.0.0"
+  },
+  "checks": [
+    {
+      "allocation": "uniform",
+      "motif_units": 8912,
+      "subset_keys": 11345,
+      "maximum_scaled_profile_error": 9.20811306726346e-16,
+      "passed": true
+    },
+    {
+      "allocation": "small_department",
+      "motif_units": 13571,
+      "subset_keys": 15801,
+      "maximum_scaled_profile_error": 7.640852597030589e-14,
+      "passed": true
+    },
+    {
+      "allocation": "large_department",
+      "motif_units": 8922,
+      "subset_keys": 10738,
+      "maximum_scaled_profile_error": 2.75278503542525e-13,
+      "passed": true
+    }
+  ],
+  "native_adapter_sha256": "d72588a7e33d8f1ec6e03b942d4d5ad2b01e4f81d8eb79310e44a446d47f89aa",
+  "maximum_scaled_profile_error": 2.75278503542525e-13,
+  "passed": true
+}

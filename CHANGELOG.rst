@@ -1,6 +1,16 @@
 Change log
 ==========
 
+Research companion - 25 October 2026
+------------------------------------
+* Add a reusable closure-profile example, explicit tool-selection guidance,
+  all 27 budget/allocation/threshold sensitivity settings and retrospective
+  reanalysis of the original evaluation samples.
+* Execute the native R survey adapter on the same three sampled research
+  graphs and compare nine contrast/variance pairs.
+* Add four companion checks, kept separate from the 28 release tests.
+* Preserve the v0.2.1 tag, distributions and installed estimator unchanged.
+
 0.2.1 - research case and release checks
 --------------------------------------
 * Add a department-roster sampling-design example for the linear closure

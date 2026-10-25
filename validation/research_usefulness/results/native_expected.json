@@ -1,0 +1,311 @@
+[
+  {
+    "name": "uniform",
+    "result": {
+      "software": "motifsurvey-prototype",
+      "version": "0.2.1",
+      "design": "independent_node",
+      "estimand": "Fixed-population non-induced motif totals",
+      "motif_order": [
+        "edges",
+        "wedges",
+        "triangles"
+      ],
+      "observed_counts": [
+        541,
+        7860,
+        511
+      ],
+      "estimated_totals": [
+        13524.999999999998,
+        982499.9999999999,
+        63874.99999999999
+      ],
+      "estimated_covariance": [
+        [
+          8184599.999999999,
+          1085466499.9999998,
+          73263999.99999999
+        ],
+        [
+          1085466499.9999998,
+          153634032999.99997,
+          10098881499.999998
+        ],
+        [
+          73263999.99999999,
+          10098881499.999998,
+          712110499.9999998
+        ]
+      ],
+      "warnings": [
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "diagnostics": {
+        "observed_nodes": 198,
+        "observed_edges": 541,
+        "motif_instances": 8912,
+        "subset_keys": 11345,
+        "minimum_covariance_eigenvalue": 439003.2631896366,
+        "covariance_absolute_term_sum": [
+          [
+            8617399.999999998,
+            1154478499.9999998,
+            79395999.99999999
+          ],
+          [
+            1154478499.9999998,
+            169544832999.99997,
+            11420621499.999998
+          ],
+          [
+            79395999.99999999,
+            11420621499.999998,
+            873890499.9999998
+          ]
+        ]
+      },
+      "input_sha256": "c6915b6ccb182878219027c8d3674b0279c746db8ce6fad0ecb40e423d86c417"
+    },
+    "profile": {
+      "input_sha256": "c6915b6ccb182878219027c8d3674b0279c746db8ce6fad0ecb40e423d86c417",
+      "software_version": "0.2.1",
+      "source_warnings": [
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "interpretation": "D(t) = 3*T_triangle - t*T_wedge. Raw estimated variances are retained. No significance, confidence interval, simultaneous coverage or threshold-selection guarantee.",
+      "profile": [
+        {
+          "threshold": 0.15,
+          "estimate": 44250.0,
+          "estimated_variance": 776766892.4999993,
+          "diagonal_only_variance": 9865760242.499996,
+          "covariance_contribution": -9088993349.999998,
+          "negative_estimated_variance": false
+        },
+        {
+          "threshold": 0.25,
+          "estimate": -54000.0,
+          "estimated_variance": 862799312.4999993,
+          "diagonal_only_variance": 16011121562.499996,
+          "covariance_contribution": -15148322249.999996,
+          "negative_estimated_variance": false
+        },
+        {
+          "threshold": 0.35,
+          "estimate": -152249.99999999997,
+          "estimated_variance": 4021512392.499998,
+          "diagonal_only_variance": 25229163542.499992,
+          "covariance_contribution": -21207651149.999992,
+          "negative_estimated_variance": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "small_department",
+    "result": {
+      "software": "motifsurvey-prototype",
+      "version": "0.2.1",
+      "design": "independent_node",
+      "estimand": "Fixed-population non-induced motif totals",
+      "motif_order": [
+        "edges",
+        "wedges",
+        "triangles"
+      ],
+      "observed_counts": [
+        693,
+        11974,
+        904
+      ],
+      "estimated_totals": [
+        14657.955893465494,
+        1111228.8833863803,
+        81683.34005375703
+      ],
+      "estimated_covariance": [
+        [
+          9557268.8033512,
+          1241764780.9704163,
+          97891697.33794867
+        ],
+        [
+          1241764780.9704163,
+          172300720211.83893,
+          13246849143.715088
+        ],
+        [
+          97891697.33794867,
+          13246849143.715088,
+          1083695120.3662632
+        ]
+      ],
+      "warnings": [
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "diagnostics": {
+        "observed_nodes": 203,
+        "observed_edges": 693,
+        "motif_instances": 13571,
+        "subset_keys": 15801,
+        "minimum_covariance_eigenvalue": 517273.9987659647,
+        "covariance_absolute_term_sum": [
+          [
+            10214684.436902665,
+            1338899834.1831102,
+            108139809.44768322
+          ],
+          [
+            1338899834.1831102,
+            192879646295.49887,
+            15246983064.187958
+          ],
+          [
+            108139809.44768322,
+            15246983064.187958,
+            1368885493.216255
+          ]
+        ]
+      },
+      "input_sha256": "d8ba4ee6b5ed79321a345fdcf8253ffd6cad822e6f589682893789c36de97b9b"
+    },
+    "profile": {
+      "input_sha256": "d8ba4ee6b5ed79321a345fdcf8253ffd6cad822e6f589682893789c36de97b9b",
+      "software_version": "0.2.1",
+      "source_warnings": [
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "interpretation": "D(t) = 3*T_triangle - t*T_wedge. Raw estimated variances are retained. No significance, confidence interval, simultaneous coverage or threshold-selection guarantee.",
+      "profile": [
+        {
+          "threshold": 0.15,
+          "estimate": 78365.68765331406,
+          "estimated_variance": 1707858058.7191646,
+          "diagonal_only_variance": 13630022288.062744,
+          "covariance_contribution": -11922164229.343578,
+          "negative_estimated_variance": false
+        },
+        {
+          "threshold": 0.25,
+          "estimate": -32757.200685323973,
+          "estimated_variance": 651777380.9636688,
+          "diagonal_only_variance": 20522051096.5363,
+          "covariance_contribution": -19870273715.57263,
+          "negative_estimated_variance": false
+        },
+        {
+          "threshold": 0.35,
+          "estimate": -143880.08902396198,
+          "estimated_variance": 3041711107.444951,
+          "diagonal_only_variance": 30860094309.246635,
+          "covariance_contribution": -27818383201.80168,
+          "negative_estimated_variance": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "large_department",
+    "result": {
+      "software": "motifsurvey-prototype",
+      "version": "0.2.1",
+      "design": "independent_node",
+      "estimand": "Fixed-population non-induced motif totals",
+      "motif_order": [
+        "edges",
+        "wedges",
+        "triangles"
+      ],
+      "observed_counts": [
+        547,
+        7730,
+        645
+      ],
+      "estimated_totals": [
+        12630.600360741739,
+        896541.9620566651,
+        65548.9934788852
+      ],
+      "estimated_covariance": [
+        [
+          9293862.587553216,
+          1293236494.4530497,
+          86551398.86629331
+        ],
+        [
+          1293236494.4530497,
+          193044465722.40387,
+          12329006591.546093
+        ],
+        [
+          86551398.86629331,
+          12329006591.546093,
+          845174241.0285238
+        ]
+      ],
+      "warnings": [
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "diagnostics": {
+        "observed_nodes": 196,
+        "observed_edges": 547,
+        "motif_instances": 8922,
+        "subset_keys": 10738,
+        "minimum_covariance_eigenvalue": 357472.9067642098,
+        "covariance_absolute_term_sum": [
+          [
+            9866934.440963803,
+            1381586372.8749657,
+            94611341.74701025
+          ],
+          [
+            1381586372.8749657,
+            214660000079.44287,
+            14069036654.728346
+          ],
+          [
+            94611341.74701025,
+            14069036654.728346,
+            1062928843.2788808
+          ]
+        ]
+      },
+      "input_sha256": "c9386ac0121a52fa7731e05b6002c6291eeee77fb085d600d88c0683d54a38b4"
+    },
+    "profile": {
+      "input_sha256": "c9386ac0121a52fa7731e05b6002c6291eeee77fb085d600d88c0683d54a38b4",
+      "software_version": "0.2.1",
+      "source_warnings": [
+        "normal_approximation_and_interval_coverage_not_certified"
+      ],
+      "interpretation": "D(t) = 3*T_triangle - t*T_wedge. Raw estimated variances are retained. No significance, confidence interval, simultaneous coverage or threshold-selection guarantee.",
+      "profile": [
+        {
+          "threshold": 0.15,
+          "estimate": 62165.68612815582,
+          "estimated_variance": 853962715.6193182,
+          "diagonal_only_variance": 11950068648.0108,
+          "covariance_contribution": -11096105932.391483,
+          "negative_estimated_variance": false
+        },
+        {
+          "threshold": 0.25,
+          "estimate": -27488.5100775107,
+          "estimated_variance": 1178337389.5878172,
+          "diagonal_only_variance": 19671847276.906956,
+          "covariance_contribution": -18493509887.319138,
+          "negative_estimated_variance": false
+        },
+        {
+          "threshold": 0.35,
+          "estimate": -117142.70628317719,
+          "estimated_variance": 5363601378.004393,
+          "diagonal_only_variance": 31254515220.251186,
+          "covariance_contribution": -25890913842.24679,
+          "negative_estimated_variance": false
+        }
+      ]
+    }
+  }
+]
