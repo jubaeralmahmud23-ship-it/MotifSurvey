@@ -1,0 +1,21 @@
+{
+  "original_version": "0.1.0",
+  "current_version": "0.2.0",
+  "replays": 600,
+  "additional_independent_samples": 0,
+  "checks": [
+    {
+      "regime": "uniform_0.2",
+      "replays": 300,
+      "maximum_scaled_difference": 2.3242990634951414e-16,
+      "passed": true
+    },
+    {
+      "regime": "heterogeneous_0.1_to_0.3",
+      "replays": 300,
+      "maximum_scaled_difference": 7.035777568539169e-14,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

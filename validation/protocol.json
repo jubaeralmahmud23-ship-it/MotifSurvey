@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-25",
+  "candidate": "C27 MotifSurvey",
+  "stage": "early abandonment, before results",
+  "claim": "An open implementation can estimate fixed-population motif totals and their joint design covariance from an induced graph obtained by independent node sampling with known probabilities, without materializing a quadratic motif-pair matrix.",
+  "inherited": "Horvitz-Thompson totals and covariance; inclusion-exclusion algebra. No algorithmic-first claim. The 2024 arXiv v2 of Bhattacharya, Das and Mukherjee explicitly has an observed-overlap variance formula for uniform sampling.",
+  "scope": "Simple undirected graphs; non-induced edges, wedges, triangles. Unequal independent node inclusion probabilities known by design, not inferred from observed graph. Conditional on fixed full graph. No general missing-data mechanism or automatic confidence guarantee.",
+  "gates": [
+    "Read strongest located implementations and reject/revise if they already supply the complete design-based workflow at comparable scale.",
+    "Exhaustively enumerate all samples of at least 12 small graphs; verify expected totals and estimated covariance equal independently enumerated truth within 1e-8 relative/absolute tolerance.",
+    "Compare optimized implementation to direct ordered-pair formula on at least 30 random fixtures and all exact samples.",
+    "Benchmark 2000-node sparse ring and 1000-node hub fixtures plus a random sparse graph, using identical motif units and probabilities. Demonstrate at least one 10x memory reduction or 5x speedup over a vectorized quadratic baseline, and report all fixtures. Also compare an overlap-indexed baseline so a dense-only strawman cannot establish the contribution.",
+    "Demonstrate a failure case for naive Gaussian intervals and clearly limit uncertainty claims.",
+    "If technical gates pass, build a bounded prototype with tests, data provenance, synthetic thinning of a public graph, and installable API/CLI. Publication readiness remains contingent on representative user validation, external statistical review, broader benchmarking and archiving."
+  ],
+  "abandonment": "No measurable computation/workflow benefit, equivalent located software, correctness failure not resolved, or dependence on assumptions unavailable to the intended users. Do not develop a generic motif counter or claim first HT implementation.",
+  "baselines": "R sampling::varHT source inspected but not executed. Independently implement its classical formula in Python and label this accurately. Direct pair and overlap-indexed Python baselines are local reference implementations. NetworkX counts can be tested natively separately.",
+  "publication_gate": "A passed early test justifies continued development, not a submission-ready recommendation or acceptance prediction."
+}

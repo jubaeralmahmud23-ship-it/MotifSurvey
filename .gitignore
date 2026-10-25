@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+validation/**/r-library/
+validation/**/*.txt.gz
+data-cache/
+check-results/

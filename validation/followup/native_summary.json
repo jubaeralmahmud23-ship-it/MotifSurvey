@@ -1,0 +1,588 @@
+{
+  "R": "R version 4.6.1 (2026-06-24 ucrt)",
+  "versions": {
+    "R": "4.6.1",
+    "sampling": "2.11",
+    "survey": "4.5",
+    "Matrix": "1.7-5",
+    "jsonlite": "2.0.0"
+  },
+  "comparisons": 78,
+  "passed": 78,
+  "distinct_graphs": 30,
+  "maximum_scaled_covariance_error": 8.644450851559184e-14,
+  "checks": [
+    {
+      "name": "correctness_0",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 2.6219667078138493e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_0",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.6219667078138493e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_1",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 7.253040022445833e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_1",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 5.439780016834375e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_2",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 6.323949478895928e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_2",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.1471603277064182e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_3",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.8484403909730525e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_3",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.597831449415562e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_4",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 9.437111976186323e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_4",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 6.067032975354479e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_5",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 4.692671126274842e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_5",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.1588376787563252e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_6",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.977461347920048e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_6",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 5.966192021880073e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_7",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 8.594814461071473e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_7",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.9861804152252607e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_8",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.3849315822611395e-15,
+      "passed": true
+    },
+    {
+      "name": "correctness_8",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 7.554172266878943e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_9",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.589741653621179e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_9",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 1.4856295182396822e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_10",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 6.597430240176393e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_10",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.2987151200881965e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_11",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.7666046679072202e-15,
+      "passed": true
+    },
+    {
+      "name": "correctness_11",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 5.299814003721661e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_12",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 5.334035364349823e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_12",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.6670176821749113e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_13",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 8.797928574748759e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_13",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 6.614503949610781e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_14",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 5.232994494205235e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_14",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 6.192247985406494e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_15",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.2631870857957344e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_15",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.526374171591469e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_16",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.7076971732386385e-15,
+      "passed": true
+    },
+    {
+      "name": "correctness_16",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.940839630550704e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_17",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 9.395448347033057e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_17",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.202414543407238e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_18",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 4.680453935310382e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_18",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.1203026235402545e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_19",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 4.886808712367181e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_19",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.8597970850603684e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_20",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 4.218082291065788e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_20",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "correctness_21",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 2.0290252170271876e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_21",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.0290252170271876e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_22",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.5060016478779377e-15,
+      "passed": true
+    },
+    {
+      "name": "correctness_22",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 4.0256322865359137e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_23",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 8.627105366366934e-16,
+      "passed": true
+    },
+    {
+      "name": "correctness_23",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.9870082220927453e-16,
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.940179294669331e-14,
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.940179294669331e-14,
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.940179294669331e-14,
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 4.4167170651719845e-15,
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 4.4167170651719845e-15,
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 4.4167170651719845e-15,
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 2.647254510837754e-14,
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 2.647254510837754e-14,
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 2.647254510837754e-14,
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.151493465283041e-14,
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.151493465283041e-14,
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.151493465283041e-14,
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.9619627249848105e-14,
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.9619627249848105e-14,
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 1.9619627249848105e-14,
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.5460563823951278e-15,
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.5460563823951278e-15,
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.5460563823951278e-15,
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.503901563070312e-15,
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.503901563070312e-15,
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "sampling",
+      "maximum_scaled_covariance_error": 3.503901563070312e-15,
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.768514815265417e-15,
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.768514815265417e-15,
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 2.768514815265417e-15,
+      "passed": true
+    },
+    {
+      "name": "ring_2000",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 8.644450851559184e-14,
+      "passed": true
+    },
+    {
+      "name": "ring_2000",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 8.644450851559184e-14,
+      "passed": true
+    },
+    {
+      "name": "ring_2000",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 8.644450851559184e-14,
+      "passed": true
+    },
+    {
+      "name": "clique_25",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.014999374764494e-14,
+      "passed": true
+    },
+    {
+      "name": "clique_25",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.014999374764494e-14,
+      "passed": true
+    },
+    {
+      "name": "clique_25",
+      "method": "survey",
+      "maximum_scaled_covariance_error": 3.014999374764494e-14,
+      "passed": true
+    }
+  ],
+  "benchmarks": [
+    {
+      "name": "ring_500",
+      "method": "sampling",
+      "units": 1000,
+      "repeats": 3,
+      "median_seconds": 0.5500000000000003,
+      "median_enumeration_seconds": 0.050000000000000266,
+      "median_setup_seconds": 0.029999999999999805,
+      "median_inference_seconds": 0.4700000000000002
+    },
+    {
+      "name": "ring_500",
+      "method": "survey",
+      "units": 1000,
+      "repeats": 3,
+      "median_seconds": 0.08999999999999986,
+      "median_enumeration_seconds": 0.0600000000000005,
+      "median_setup_seconds": 0.029999999999999805,
+      "median_inference_seconds": 0.0
+    },
+    {
+      "name": "hub_50",
+      "method": "sampling",
+      "units": 1225,
+      "repeats": 3,
+      "median_seconds": 0.7199999999999998,
+      "median_enumeration_seconds": 0.019999999999999574,
+      "median_setup_seconds": 0.11000000000000032,
+      "median_inference_seconds": 0.5899999999999999
+    },
+    {
+      "name": "hub_50",
+      "method": "survey",
+      "units": 1225,
+      "repeats": 3,
+      "median_seconds": 0.17000000000000082,
+      "median_enumeration_seconds": 0.010000000000000675,
+      "median_setup_seconds": 0.13999999999999968,
+      "median_inference_seconds": 0.019999999999999574
+    },
+    {
+      "name": "random_200",
+      "method": "sampling",
+      "units": 463,
+      "repeats": 3,
+      "median_seconds": 0.08000000000000007,
+      "median_enumeration_seconds": 0.03000000000000025,
+      "median_setup_seconds": 0.0,
+      "median_inference_seconds": 0.04999999999999982
+    },
+    {
+      "name": "random_200",
+      "method": "survey",
+      "units": 463,
+      "repeats": 3,
+      "median_seconds": 0.040000000000000036,
+      "median_enumeration_seconds": 0.010000000000000675,
+      "median_setup_seconds": 0.019999999999999574,
+      "median_inference_seconds": 0.0
+    },
+    {
+      "name": "clique_12",
+      "method": "sampling",
+      "units": 946,
+      "repeats": 3,
+      "median_seconds": 0.41000000000000014,
+      "median_enumeration_seconds": 0.03000000000000025,
+      "median_setup_seconds": 0.05999999999999961,
+      "median_inference_seconds": 0.3100000000000005
+    },
+    {
+      "name": "clique_12",
+      "method": "survey",
+      "units": 946,
+      "repeats": 3,
+      "median_seconds": 0.11000000000000121,
+      "median_enumeration_seconds": 0.02999999999999936,
+      "median_setup_seconds": 0.08000000000000007,
+      "median_inference_seconds": 0.009999999999999787
+    },
+    {
+      "name": "ring_2000",
+      "method": "survey",
+      "units": 4000,
+      "repeats": 3,
+      "median_seconds": 0.3899999999999988,
+      "median_enumeration_seconds": 0.2699999999999996,
+      "median_setup_seconds": 0.13000000000000078,
+      "median_inference_seconds": 0.0
+    },
+    {
+      "name": "clique_25",
+      "method": "survey",
+      "units": 9500,
+      "repeats": 3,
+      "median_seconds": 4.170000000000002,
+      "median_enumeration_seconds": 0.6099999999999994,
+      "median_setup_seconds": 3.210000000000001,
+      "median_inference_seconds": 0.379999999999999
+    }
+  ],
+  "scope": "Native installed sampling::varHT and survey::svytotal with sparse ppscov, wrapped in our original graph-to-motif adapter. Adapter and native stages separately timed. Process imports and JSON I/O excluded. R timings have coarse millisecond/centisecond resolution on this machine; zeros do not mean zero work.",
+  "harness_issue": "First run stopped because the survey design API rejects a single observed motif unit. Correctness fixtures then required at least two edges; this is not a MotifSurvey failure. The package itself supports a single edge."
+}

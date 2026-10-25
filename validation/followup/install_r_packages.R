@@ -1,0 +1,6 @@
+args <- commandArgs(trailingOnly=TRUE)
+dir.create(args[1], recursive=TRUE, showWarnings=FALSE)
+.libPaths(c(args[1], .libPaths()))
+options(repos=c(CRAN='https://cloud.r-project.org'), timeout=180)
+install.packages(c('sampling','survey','jsonlite'), lib=args[1], type='binary')
+print(installed.packages()[intersect(c('sampling','survey','jsonlite','Matrix','lpSolve'),rownames(installed.packages())),c('Package','Version')])

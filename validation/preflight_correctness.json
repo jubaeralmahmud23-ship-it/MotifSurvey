@@ -1,0 +1,101 @@
+{
+  "exhaustive": [
+    {
+      "case": 0,
+      "nodes": 5,
+      "edges": 3,
+      "samples": 32,
+      "mean_error": 4.440892098500626e-16,
+      "covariance_error": 7.105427357601002e-15
+    },
+    {
+      "case": 1,
+      "nodes": 6,
+      "edges": 4,
+      "samples": 64,
+      "mean_error": 8.881784197001252e-16,
+      "covariance_error": 1.4210854715202004e-14
+    },
+    {
+      "case": 2,
+      "nodes": 7,
+      "edges": 11,
+      "samples": 128,
+      "mean_error": 5.329070518200751e-15,
+      "covariance_error": 2.2737367544323206e-13
+    },
+    {
+      "case": 3,
+      "nodes": 5,
+      "edges": 6,
+      "samples": 32,
+      "mean_error": 0.0,
+      "covariance_error": 5.684341886080802e-14
+    },
+    {
+      "case": 4,
+      "nodes": 6,
+      "edges": 5,
+      "samples": 64,
+      "mean_error": 1.7763568394002505e-15,
+      "covariance_error": 1.4210854715202004e-14
+    },
+    {
+      "case": 5,
+      "nodes": 7,
+      "edges": 12,
+      "samples": 128,
+      "mean_error": 7.105427357601002e-15,
+      "covariance_error": 9.094947017729282e-13
+    },
+    {
+      "case": 6,
+      "nodes": 5,
+      "edges": 6,
+      "samples": 32,
+      "mean_error": 0.0,
+      "covariance_error": 7.105427357601002e-15
+    },
+    {
+      "case": 7,
+      "nodes": 6,
+      "edges": 8,
+      "samples": 64,
+      "mean_error": 8.881784197001252e-16,
+      "covariance_error": 4.547473508864641e-13
+    },
+    {
+      "case": 8,
+      "nodes": 7,
+      "edges": 6,
+      "samples": 128,
+      "mean_error": 1.7763568394002505e-15,
+      "covariance_error": 2.842170943040401e-14
+    },
+    {
+      "case": 9,
+      "nodes": 5,
+      "edges": 6,
+      "samples": 32,
+      "mean_error": 0.0,
+      "covariance_error": 5.684341886080802e-14
+    },
+    {
+      "case": 10,
+      "nodes": 6,
+      "edges": 7,
+      "samples": 64,
+      "mean_error": 8.881784197001252e-16,
+      "covariance_error": 5.684341886080802e-14
+    },
+    {
+      "case": 11,
+      "nodes": 7,
+      "edges": 12,
+      "samples": 128,
+      "mean_error": 1.7763568394002505e-15,
+      "covariance_error": 5.684341886080802e-14
+    }
+  ],
+  "baseline_agreements": 986
+}

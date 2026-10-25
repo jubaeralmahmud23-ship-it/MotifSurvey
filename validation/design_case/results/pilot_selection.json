@@ -1,0 +1,14 @@
+{
+  "mean_estimated_variances": {
+    "uniform": 1359566039.8437495,
+    "small_department": 1377441229.48496,
+    "large_department": 1998217574.1291199
+  },
+  "mean_diagonal_only_variances": {
+    "uniform": 27389068927.343746,
+    "small_department": 26670333694.7994,
+    "large_department": 39139497748.279854
+  },
+  "full_covariance_choice": "uniform",
+  "diagonal_only_choice": "small_department"
+}

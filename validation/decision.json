@@ -1,0 +1,17 @@
+{
+  "candidate_id": "C27",
+  "name": "MotifSurvey",
+  "date": "2026-10-25",
+  "decision": "CONTINUE — early technical and computation gates passed; bounded prototype built",
+  "publication_ready": false,
+  "ranked_finalist": false,
+  "basis": "Classical design-based estimation is useful and well documented. Inspected generic survey software takes a motif-pair inclusion matrix; graph counters and located model-based/temporal implementations do not supply the same fixed-graph, unequal independent-node workflow. Subset aggregation agrees with exhaustive truth and local pair-formula references and shows a measurable workload-dependent computation benefit.",
+  "contribution": "Independent implementation and tested workflow, unequal known node probabilities, joint edge/wedge/triangle covariance, overlap aggregation, input/resource checks and reproducible JSON. No new statistical method or universal first-software claim.",
+  "completed": "22 installed-package tests, including native NetworkX counts for all 64 labeled 4-node graphs; exhaustive 896 samples from 12 graphs; 90 further baseline comparisons in 30 fixtures; end-to-end package benchmarks on ring, hub and random graphs; 60 synthetic thinnings of public ca-GrQc graph; exact normal-interval failure example.",
+  "limits": "Only known independent-node inclusion and complete induced observation; positive inclusion required for all population nodes. Three non-induced motifs. No automatic confidence intervals, no proper inference under unknown selection, fixed-size sampling or ego sampling. Covariance can be indefinite and is flagged. Default resource caps restrict dense graphs.",
+  "fairness": "Performance baselines are local Python formula implementations, not execution of native R sampling, igraph, netsubsamp or the SBM author implementation. End-to-end benchmark includes package enumeration, validation and hashing. Indexed reference is faster on the ring; no universal performance claim. The initial 1000-node hub comparison used edges only; follow-up installed-package benchmark uses all 1225 motif units in a 50-node hub.",
+  "remaining_gates": "Independent statistical review, native equivalent-baseline execution, additional realistic workflows and research-user benefit, broader numerical/scale evaluation, current journal-policy recheck and archived public release. Scores withheld until essential usefulness evidence is stronger.",
+  "abandon_or_revise_if": "A maintained equivalent covers the same design and workload; an existing extension provides comparable behavior without a meaningful residual contribution; user workflows lack known sampling probabilities; correctness or practical resource limits invalidate the intended use; benefits vanish under stronger fair baselines.",
+  "scope_of_search": "Bounded documented searches and selected primary-source/code inspections as of 2026-10-25. No proof that an equivalent does not exist. No external users or authors contacted.",
+  "superseded_by": "followup/decision.json (extended validation and 0.2.0)"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "Frozen before examining design comparison results; internal protocol, not external preregistration",
+  "question": "At the same expected number of observed vertices, which of three roster-based independent sampling designs estimates the network closure contrast most precisely?",
+  "population": "Simple undirected projection of SNAP email-Eu-core, using the complete department roster as auxiliary allocation information",
+  "estimand": "D = 3 * triangles - 0.25 * wedges; sign agrees with transitivity minus 0.25 when wedges > 0",
+  "threshold": 0.25,
+  "expected_nodes": 201,
+  "designs": ["uniform", "small_department", "large_department"],
+  "allocation_scores": ["1", "inverse square root of department size", "square root of department size"],
+  "probability_bounds": [0.05, 0.8],
+  "pilot_repetitions_per_design": 200,
+  "evaluation_repetitions_per_design": 600,
+  "pilot_seed_start": 2026102500,
+  "evaluation_seed_start": 2026103500,
+  "coupling": "Common uniform vector across designs at a seed; independent vectors across seeds. Design comparisons are paired.",
+  "selection_rule": "Minimize mean estimated variance of D in the pilot. Compare with minimizing the diagonal-only variance approximation. Hold both choices fixed before evaluation.",
+  "outcomes": ["exact design variance from the complete reference graph", "evaluation empirical variance and mean squared error", "mean estimated variance", "paired bootstrap uncertainty for evaluation MSE ratio to uniform", "mean selected vertices and induced edges", "negative estimated variance and indefinite covariance counts"],
+  "restrictions": "Report all three designs. Do not tune allocation or threshold after seeing outcomes. No population confidence intervals, hypothesis-test significance, external adoption or original-collection validity claim. Node cost is equal in expectation, not exactly; induced-edge cost may differ. This is a reference-population design-planning case, not an optimal sampling algorithm."
+}

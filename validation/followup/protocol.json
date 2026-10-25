@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "candidate": "C27 MotifSurvey",
+  "status": "Protocol recorded before follow-up experiments",
+  "question": "Does a useful, defensible implementation contribution survive native equivalents, stronger computational references and realistic resource/numerical checks?",
+  "checks": [
+    "Execute installed R sampling::varHT with independently formed motif-pair inclusion probabilities. Compare all joint entries via polarization on at least 20 graph/probability fixtures; benchmark common end-to-end workloads with setup and process startup separately reported.",
+    "Execute a strong vectorized NumPy/SciPy subset-incidence adapter using the same established identity. This is a new local comparator, not an existing released motif package. Compare both time and measured process memory; do not use weak pair loops to establish superiority.",
+    "Stress census, nearly census, tiny, heterogeneous probabilities, clique, hub, ring and heavy-tailed graphs. Compare small fixtures to high precision direct covariance with scale-aware error tolerance 1e-8. Record deliberate resource/overflow rejection separately from numerical errors.",
+    "Assess a second public network and at least 300 repetitions per sampling regime if early checks survive. Synthetic thinning is algorithm validation, not evidence of a real random data acquisition process.",
+    "Inspect 3-5 closest maintained tools and author implementations. Distinguish exact same estimand, component counters and alternative sampling/model assumptions. Recheck official journal guidance; mark blocked pages unverified.",
+    "Continue development only if there is an identifiable research use, useful unresolved workflow/computation benefit, feasible release and no correctness/resource issue undermining the scope. Lack of a newly invented algorithm is not a reason to reject. Do not fabricate user studies or independent human review."
+  ],
+  "early_stop": "If native/optimized comparisons and resource limits remove the defensible benefit, stop polishing MotifSurvey, preserve results and continue discovery without requesting permission.",
+  "limits": "Acceptance cannot be predicted. A technical audit by this assistant is not independent expert review. No external contacts or publication authorized."
+}

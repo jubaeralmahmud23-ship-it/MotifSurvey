@@ -1,0 +1,66 @@
+{
+  "software": "motifsurvey-prototype",
+  "version": "0.1.0",
+  "design": "independent_node",
+  "estimand": "Fixed-population non-induced motif totals",
+  "motif_order": [
+    "edges",
+    "wedges",
+    "triangles"
+  ],
+  "observed_counts": [
+    1433,
+    7859,
+    1699
+  ],
+  "estimated_totals": [
+    15922.22222222247,
+    291074.07407411013,
+    62925.92592592517
+  ],
+  "estimated_covariance": [
+    [
+      1519337.0370371158,
+      68656028.80658415,
+      17082621.3991772
+    ],
+    [
+      68656028.80658415,
+      3852871507.544357,
+      1009883979.4239496
+    ],
+    [
+      17082621.3991772,
+      1009883979.4239496,
+      282564563.7859919
+    ]
+  ],
+  "warnings": [
+    "normal_approximation_and_interval_coverage_not_certified"
+  ],
+  "diagnostics": {
+    "observed_nodes": 1574,
+    "observed_edges": 1433,
+    "motif_instances": 10991,
+    "subset_keys": 9387,
+    "minimum_covariance_eigenvalue": 248359.08312822078,
+    "covariance_absolute_term_sum": [
+      [
+        1692712.3456789802,
+        77050555.55555649,
+        19138201.646090265
+      ],
+      [
+        77050555.55555649,
+        4659529806.584521,
+        1232857504.8011765
+      ],
+      [
+        19138201.646090265,
+        1232857504.8011765,
+        350211449.93141097
+      ]
+    ]
+  },
+  "input_sha256": "0d7daf7cbefe61ae7ebe266260d688e38f4b389db5f145f076253e6fe0896489"
+}

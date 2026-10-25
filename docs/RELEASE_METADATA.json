@@ -1,0 +1,27 @@
+{
+  "title": "MotifSurvey",
+  "distribution": "motifsurvey-prototype",
+  "version": "0.2.1",
+  "status": "local release candidate; not publicly deposited",
+  "authors": [
+    {
+      "name": "Jubaer Al Mahmud",
+      "affiliation": "Independent researcher, Dhaka, Bangladesh"
+    }
+  ],
+  "corresponding_email": "jubaeralmahmud23@gmail.com",
+  "repository_url": "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey",
+  "release_tag": null,
+  "archive_doi": null,
+  "license": "MIT",
+  "author_confirmation_required": [
+    "competing interests",
+    "contribution roles",
+    "scientific and code review",
+    "final manuscript approval"
+  ],
+  "funding": "No external funding",
+  "repository_access": "Not verified: public URL returned 404; connector unavailable and Git authentication absent",
+  "planned_release_tag": "v0.2.1",
+  "version_control": "Git (local; public access unavailable)"
+}

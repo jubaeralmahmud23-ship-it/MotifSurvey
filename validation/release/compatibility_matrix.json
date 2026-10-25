@@ -1,0 +1,1968 @@
+{
+  "platform": "win32",
+  "core_sha256": "38e7170691cb2cb528bfe46ba44e64a7382762c57bf9df2d01325a8bd68eb4c4",
+  "cases": [
+    {
+      "name": "py310_min",
+      "environment": {
+        "python": "3.10.22 (main, Oct  9 2026, 15:18:58) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.19045-SP0",
+        "numpy": "1.24.0",
+        "networkx": "3.4.2",
+        "module": "installed environment: site-packages/motifsurvey/__init__.py"
+      },
+      "wheel_sha256": "e57c4142a94b3bf053c22ca9861972269a9d2d178b51c9ed3f30252638620d9b",
+      "unit_tests": 23,
+      "exact_samples": 896,
+      "public_replays": 60,
+      "native_cached_comparisons": 58,
+      "stress": {
+        "oracle": "90-digit Decimal direct ordered motif pairs; same IEEE input probabilities",
+        "cases": [
+          {
+            "graph": "clique",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "almost_census",
+            "maximum_relative_error": 5.052748343182932e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.0901876089129373e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.085490385707988e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "ordinary",
+            "maximum_relative_error": 6.324045392477266e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.8668992422318356e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.61673130446548e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.884782874465173e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5227531814536216e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4402479239851057e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.790602465931168e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5711968009250186e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.5088530160992575e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4500492001218158e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 4.867778303859035e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.424488534355064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.733746539975178e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.3990457276943064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "ordinary",
+            "maximum_relative_error": 5.027986946937722e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          }
+        ],
+        "failures": [],
+        "resource_checks": [
+          {
+            "case": "hub_1000_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.01098010002169758
+          },
+          {
+            "case": "clique_100_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.041785100009292364
+          },
+          {
+            "case": "inverse_overflow",
+            "result": "ValueError: Inclusion probability underflows or inverse overflows",
+            "seconds": 0.000202300027012825
+          },
+          {
+            "case": "covariance_overflow",
+            "result": "ValueError: Covariance calculation overflows; probabilities too small",
+            "seconds": 0.0003029999788850546
+          },
+          {
+            "case": "subset_cap",
+            "result": "ResourceLimitError: Subset count exceeds max_subsets",
+            "seconds": 0.0001419999753125012
+          }
+        ],
+        "versions": {
+          "motifsurvey": "0.2.0",
+          "python": "3.10.22 (main, Oct  9 2026, 15:18:58) [MSC v.1944 64 bit (AMD64)]",
+          "numpy": "1.24.0",
+          "networkx": "3.4.2",
+          "platform": "Windows-10-10.0.19045-SP0"
+        }
+      },
+      "cli_result": {
+        "software": "motifsurvey-prototype",
+        "version": "0.2.0",
+        "design": "independent_node",
+        "estimand": "Fixed-population non-induced motif totals",
+        "motif_order": [
+          "edges",
+          "wedges",
+          "triangles"
+        ],
+        "observed_counts": [
+          3,
+          3,
+          1
+        ],
+        "estimated_totals": [
+          12.0,
+          24.0,
+          8.0
+        ],
+        "estimated_covariance": [
+          [
+            84.0,
+            216.0,
+            72.0
+          ],
+          [
+            216.0,
+            504.0,
+            168.0
+          ],
+          [
+            72.0,
+            168.0,
+            56.0
+          ]
+        ],
+        "warnings": [
+          "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+          "normal_approximation_and_interval_coverage_not_certified"
+        ],
+        "diagnostics": {
+          "observed_nodes": 3,
+          "observed_edges": 3,
+          "motif_instances": 7,
+          "subset_keys": 7,
+          "minimum_covariance_eigenvalue": -7.369093874941459,
+          "covariance_absolute_term_sum": [
+            [
+              108.0,
+              360.0,
+              120.0
+            ],
+            [
+              360.0,
+              1368.0,
+              456.0
+            ],
+            [
+              120.0,
+              456.0,
+              152.0
+            ]
+          ]
+        },
+        "input_sha256": "293db626e11610f2c2fda40fd2b3c594536250e5f70bfa7e5f3f5761e4134313"
+      },
+      "passed": true
+    },
+    {
+      "name": "py312_np1",
+      "environment": {
+        "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.19045-SP0",
+        "numpy": "1.26.4",
+        "networkx": "3.6.1",
+        "module": "installed environment: site-packages/motifsurvey/__init__.py"
+      },
+      "wheel_sha256": "e57c4142a94b3bf053c22ca9861972269a9d2d178b51c9ed3f30252638620d9b",
+      "unit_tests": 23,
+      "exact_samples": 896,
+      "public_replays": 60,
+      "native_cached_comparisons": 58,
+      "stress": {
+        "oracle": "90-digit Decimal direct ordered motif pairs; same IEEE input probabilities",
+        "cases": [
+          {
+            "graph": "clique",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "almost_census",
+            "maximum_relative_error": 5.052748343182932e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.0901876089129373e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.085490385707988e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "ordinary",
+            "maximum_relative_error": 6.324045392477266e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.8668992422318356e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.61673130446548e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.884782874465173e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5227531814536216e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4402479239851057e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.790602465931168e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5711968009250186e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.5088530160992575e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4500492001218158e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 4.867778303859035e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.424488534355064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.733746539975178e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.3990457276943064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "ordinary",
+            "maximum_relative_error": 5.027986946937722e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          }
+        ],
+        "failures": [],
+        "resource_checks": [
+          {
+            "case": "hub_1000_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.006330200005322695
+          },
+          {
+            "case": "clique_100_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.02920079999603331
+          },
+          {
+            "case": "inverse_overflow",
+            "result": "ValueError: Inclusion probability underflows or inverse overflows",
+            "seconds": 0.00013839994790032506
+          },
+          {
+            "case": "covariance_overflow",
+            "result": "ValueError: Covariance calculation overflows; probabilities too small",
+            "seconds": 0.0005939999828115106
+          },
+          {
+            "case": "subset_cap",
+            "result": "ResourceLimitError: Subset count exceeds max_subsets",
+            "seconds": 0.00025179999647662044
+          }
+        ],
+        "versions": {
+          "motifsurvey": "0.2.0",
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "numpy": "1.26.4",
+          "networkx": "3.6.1",
+          "platform": "Windows-10-10.0.19045-SP0"
+        }
+      },
+      "cli_result": {
+        "software": "motifsurvey-prototype",
+        "version": "0.2.0",
+        "design": "independent_node",
+        "estimand": "Fixed-population non-induced motif totals",
+        "motif_order": [
+          "edges",
+          "wedges",
+          "triangles"
+        ],
+        "observed_counts": [
+          3,
+          3,
+          1
+        ],
+        "estimated_totals": [
+          12.0,
+          24.0,
+          8.0
+        ],
+        "estimated_covariance": [
+          [
+            84.0,
+            216.0,
+            72.0
+          ],
+          [
+            216.0,
+            504.0,
+            168.0
+          ],
+          [
+            72.0,
+            168.0,
+            56.0
+          ]
+        ],
+        "warnings": [
+          "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+          "normal_approximation_and_interval_coverage_not_certified"
+        ],
+        "diagnostics": {
+          "observed_nodes": 3,
+          "observed_edges": 3,
+          "motif_instances": 7,
+          "subset_keys": 7,
+          "minimum_covariance_eigenvalue": -7.369093874941459,
+          "covariance_absolute_term_sum": [
+            [
+              108.0,
+              360.0,
+              120.0
+            ],
+            [
+              360.0,
+              1368.0,
+              456.0
+            ],
+            [
+              120.0,
+              456.0,
+              152.0
+            ]
+          ]
+        },
+        "input_sha256": "293db626e11610f2c2fda40fd2b3c594536250e5f70bfa7e5f3f5761e4134313"
+      },
+      "passed": true
+    },
+    {
+      "name": "py312_np2",
+      "environment": {
+        "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.19045-SP0",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "module": "installed environment: site-packages/motifsurvey/__init__.py"
+      },
+      "wheel_sha256": "e57c4142a94b3bf053c22ca9861972269a9d2d178b51c9ed3f30252638620d9b",
+      "unit_tests": 23,
+      "exact_samples": 896,
+      "public_replays": 60,
+      "native_cached_comparisons": 58,
+      "stress": {
+        "oracle": "90-digit Decimal direct ordered motif pairs; same IEEE input probabilities",
+        "cases": [
+          {
+            "graph": "clique",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "almost_census",
+            "maximum_relative_error": 5.052748343182932e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.0901876089129373e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.085490385707988e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "ordinary",
+            "maximum_relative_error": 6.324045392477266e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.8668992422318356e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.61673130446548e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.884782874465173e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5227531814536216e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4402479239851057e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.790602465931168e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5711968009250186e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.5088530160992575e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4500492001218158e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 4.867778303859035e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.424488534355064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.733746539975178e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.3990457276943064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "ordinary",
+            "maximum_relative_error": 5.027986946937722e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          }
+        ],
+        "failures": [],
+        "resource_checks": [
+          {
+            "case": "hub_1000_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.0063791999709792435
+          },
+          {
+            "case": "clique_100_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.017190200043842196
+          },
+          {
+            "case": "inverse_overflow",
+            "result": "ValueError: Inclusion probability underflows or inverse overflows",
+            "seconds": 0.00016259995754808187
+          },
+          {
+            "case": "covariance_overflow",
+            "result": "ValueError: Covariance calculation overflows; probabilities too small",
+            "seconds": 0.0002891999902203679
+          },
+          {
+            "case": "subset_cap",
+            "result": "ResourceLimitError: Subset count exceeds max_subsets",
+            "seconds": 0.0001721000298857689
+          }
+        ],
+        "versions": {
+          "motifsurvey": "0.2.0",
+          "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+          "numpy": "2.5.4",
+          "networkx": "3.6.1",
+          "platform": "Windows-10-10.0.19045-SP0"
+        }
+      },
+      "cli_result": {
+        "software": "motifsurvey-prototype",
+        "version": "0.2.0",
+        "design": "independent_node",
+        "estimand": "Fixed-population non-induced motif totals",
+        "motif_order": [
+          "edges",
+          "wedges",
+          "triangles"
+        ],
+        "observed_counts": [
+          3,
+          3,
+          1
+        ],
+        "estimated_totals": [
+          12.0,
+          24.0,
+          8.0
+        ],
+        "estimated_covariance": [
+          [
+            84.0,
+            216.0,
+            72.0
+          ],
+          [
+            216.0,
+            504.0,
+            168.0
+          ],
+          [
+            72.0,
+            168.0,
+            56.0
+          ]
+        ],
+        "warnings": [
+          "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+          "normal_approximation_and_interval_coverage_not_certified"
+        ],
+        "diagnostics": {
+          "observed_nodes": 3,
+          "observed_edges": 3,
+          "motif_instances": 7,
+          "subset_keys": 7,
+          "minimum_covariance_eigenvalue": -7.369093874941459,
+          "covariance_absolute_term_sum": [
+            [
+              108.0,
+              360.0,
+              120.0
+            ],
+            [
+              360.0,
+              1368.0,
+              456.0
+            ],
+            [
+              120.0,
+              456.0,
+              152.0
+            ]
+          ]
+        },
+        "input_sha256": "293db626e11610f2c2fda40fd2b3c594536250e5f70bfa7e5f3f5761e4134313"
+      },
+      "passed": true,
+      "sdist_install_and_tests_passed": true
+    },
+    {
+      "name": "py314",
+      "environment": {
+        "python": "3.14.9 (main, Oct 21 2026, 17:48:58) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.19045-SP0",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "module": "installed environment: site-packages/motifsurvey/__init__.py"
+      },
+      "wheel_sha256": "e57c4142a94b3bf053c22ca9861972269a9d2d178b51c9ed3f30252638620d9b",
+      "unit_tests": 23,
+      "exact_samples": 896,
+      "public_replays": 60,
+      "native_cached_comparisons": 58,
+      "stress": {
+        "oracle": "90-digit Decimal direct ordered motif pairs; same IEEE input probabilities",
+        "cases": [
+          {
+            "graph": "clique",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "almost_census",
+            "maximum_relative_error": 5.052748343182932e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.0901876089129373e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.085490385707988e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "ordinary",
+            "maximum_relative_error": 6.324045392477266e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.8668992422318356e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.61673130446548e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.884782874465173e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5227531814536216e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4402479239851057e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.790602465931168e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5711968009250186e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.5088530160992575e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4500492001218158e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 4.867778303859035e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.424488534355064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.733746539975178e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.3990457276943064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "ordinary",
+            "maximum_relative_error": 5.027986946937722e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          }
+        ],
+        "failures": [],
+        "resource_checks": [
+          {
+            "case": "hub_1000_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.0035524999839253724
+          },
+          {
+            "case": "clique_100_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.01116519997594878
+          },
+          {
+            "case": "inverse_overflow",
+            "result": "ValueError: Inclusion probability underflows or inverse overflows",
+            "seconds": 7.750000804662704e-05
+          },
+          {
+            "case": "covariance_overflow",
+            "result": "ValueError: Covariance calculation overflows; probabilities too small",
+            "seconds": 0.0002242999617010355
+          },
+          {
+            "case": "subset_cap",
+            "result": "ResourceLimitError: Subset count exceeds max_subsets",
+            "seconds": 0.00014630000805482268
+          }
+        ],
+        "versions": {
+          "motifsurvey": "0.2.0",
+          "python": "3.14.9 (main, Oct 21 2026, 17:48:58) [MSC v.1944 64 bit (AMD64)]",
+          "numpy": "2.5.4",
+          "networkx": "3.6.1",
+          "platform": "Windows-10-10.0.19045-SP0"
+        }
+      },
+      "cli_result": {
+        "software": "motifsurvey-prototype",
+        "version": "0.2.0",
+        "design": "independent_node",
+        "estimand": "Fixed-population non-induced motif totals",
+        "motif_order": [
+          "edges",
+          "wedges",
+          "triangles"
+        ],
+        "observed_counts": [
+          3,
+          3,
+          1
+        ],
+        "estimated_totals": [
+          12.0,
+          24.0,
+          8.0
+        ],
+        "estimated_covariance": [
+          [
+            84.0,
+            216.0,
+            72.0
+          ],
+          [
+            216.0,
+            504.0,
+            168.0
+          ],
+          [
+            72.0,
+            168.0,
+            56.0
+          ]
+        ],
+        "warnings": [
+          "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+          "normal_approximation_and_interval_coverage_not_certified"
+        ],
+        "diagnostics": {
+          "observed_nodes": 3,
+          "observed_edges": 3,
+          "motif_instances": 7,
+          "subset_keys": 7,
+          "minimum_covariance_eigenvalue": -7.369093874941459,
+          "covariance_absolute_term_sum": [
+            [
+              108.0,
+              360.0,
+              120.0
+            ],
+            [
+              360.0,
+              1368.0,
+              456.0
+            ],
+            [
+              120.0,
+              456.0,
+              152.0
+            ]
+          ]
+        },
+        "input_sha256": "293db626e11610f2c2fda40fd2b3c594536250e5f70bfa7e5f3f5761e4134313"
+      },
+      "passed": true
+    },
+    {
+      "name": "py315",
+      "environment": {
+        "python": "3.15.1 (main, Oct 21 2026, 17:51:31) [MSC v.1951 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.19045-SP0",
+        "numpy": "2.5.4",
+        "networkx": "3.6.1",
+        "module": "installed environment: site-packages/motifsurvey/__init__.py"
+      },
+      "wheel_sha256": "e57c4142a94b3bf053c22ca9861972269a9d2d178b51c9ed3f30252638620d9b",
+      "unit_tests": 23,
+      "exact_samples": 896,
+      "public_replays": 60,
+      "native_cached_comparisons": 58,
+      "stress": {
+        "oracle": "90-digit Decimal direct ordered motif pairs; same IEEE input probabilities",
+        "cases": [
+          {
+            "graph": "clique",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "almost_census",
+            "maximum_relative_error": 5.052748343182932e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.0901876089129373e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.085490385707988e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "clique",
+            "regime": "ordinary",
+            "maximum_relative_error": 6.324045392477266e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.8668992422318356e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.61673130446548e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 5.884782874465173e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "star",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5227531814536216e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4402479239851057e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.790602465931168e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "cycle",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.5711968009250186e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.5088530160992575e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "uniform_low",
+            "maximum_relative_error": 3.4500492001218158e-15,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 4.867778303859035e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "bipartite",
+            "regime": "ordinary",
+            "maximum_relative_error": 3.424488534355064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "zero_observed_count_does_not_establish_population_absence",
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "census",
+            "maximum_relative_error": 0.0,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "almost_census",
+            "maximum_relative_error": 3.9474596431116655e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "uniform_low",
+            "maximum_relative_error": 5.733746539975178e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "heterogeneous_extreme",
+            "maximum_relative_error": 3.3990457276943064e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          },
+          {
+            "graph": "disconnected",
+            "regime": "ordinary",
+            "maximum_relative_error": 5.027986946937722e-16,
+            "maximum_error_on_exact_zeros": 0.0,
+            "passed": true,
+            "warnings": [
+              "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+              "normal_approximation_and_interval_coverage_not_certified"
+            ]
+          }
+        ],
+        "failures": [],
+        "resource_checks": [
+          {
+            "case": "hub_1000_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.005848700006026775
+          },
+          {
+            "case": "clique_100_default",
+            "result": "ResourceLimitError: Edge/wedge count exceeds max_instances",
+            "seconds": 0.01624139997875318
+          },
+          {
+            "case": "inverse_overflow",
+            "result": "ValueError: Inclusion probability underflows or inverse overflows",
+            "seconds": 0.00047560001257807016
+          },
+          {
+            "case": "covariance_overflow",
+            "result": "ValueError: Covariance calculation overflows; probabilities too small",
+            "seconds": 0.0006431000074371696
+          },
+          {
+            "case": "subset_cap",
+            "result": "ResourceLimitError: Subset count exceeds max_subsets",
+            "seconds": 0.00047580001410096884
+          }
+        ],
+        "versions": {
+          "motifsurvey": "0.2.0",
+          "python": "3.15.1 (main, Oct 21 2026, 17:51:31) [MSC v.1951 64 bit (AMD64)]",
+          "numpy": "2.5.4",
+          "networkx": "3.6.1",
+          "platform": "Windows-10-10.0.19045-SP0"
+        }
+      },
+      "cli_result": {
+        "software": "motifsurvey-prototype",
+        "version": "0.2.0",
+        "design": "independent_node",
+        "estimand": "Fixed-population non-induced motif totals",
+        "motif_order": [
+          "edges",
+          "wedges",
+          "triangles"
+        ],
+        "observed_counts": [
+          3,
+          3,
+          1
+        ],
+        "estimated_totals": [
+          12.0,
+          24.0,
+          8.0
+        ],
+        "estimated_covariance": [
+          [
+            84.0,
+            216.0,
+            72.0
+          ],
+          [
+            216.0,
+            504.0,
+            168.0
+          ],
+          [
+            72.0,
+            168.0,
+            56.0
+          ]
+        ],
+        "warnings": [
+          "estimated_covariance_not_positive_semidefinite; do_not_use_for_joint_Wald_inference",
+          "normal_approximation_and_interval_coverage_not_certified"
+        ],
+        "diagnostics": {
+          "observed_nodes": 3,
+          "observed_edges": 3,
+          "motif_instances": 7,
+          "subset_keys": 7,
+          "minimum_covariance_eigenvalue": -7.369093874941459,
+          "covariance_absolute_term_sum": [
+            [
+              108.0,
+              360.0,
+              120.0
+            ],
+            [
+              360.0,
+              1368.0,
+              456.0
+            ],
+            [
+              120.0,
+              456.0,
+              152.0
+            ]
+          ]
+        },
+        "input_sha256": "293db626e11610f2c2fda40fd2b3c594536250e5f70bfa7e5f3f5761e4134313"
+      },
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

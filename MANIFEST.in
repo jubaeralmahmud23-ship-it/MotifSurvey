@@ -1,0 +1,11 @@
+include README.md README.rst LICENSE Licence.txt THEORY.rst CHANGELOG.rst CITATION.cff
+include .gitattributes .gitignore
+recursive-include docs *.rst *.json
+recursive-include examples *.py *.json
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include validation *.py *.R *.json *.rst
+recursive-include .github *.yml
+global-exclude __pycache__ *.py[cod] *.gz *.pdf *.html
+prune build
+prune dist

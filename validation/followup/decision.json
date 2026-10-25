@@ -1,0 +1,35 @@
+{
+  "candidate_id": "C27",
+  "name": "MotifSurvey",
+  "date": "2026-10-25",
+  "decision": "CONTINUE — credible focused SoftwareX candidate after extended validation; prototype advanced to 0.2.0",
+  "publication_ready": false,
+  "ranked_finalist": true,
+  "basis": "A documented scientific task, native-equivalent numerical agreement, high-precision and exhaustive checks, and measured avoidance of large motif-overlap matrices establish a useful implementation contribution for known independent-node sampling. Sparse-pair methods remain faster in some sparse graphs; the contribution is workload-specific. No new estimator or universal first-implementation claim.",
+  "target_user": "Network-sampling methods researchers and analysts who deliberately control independent node selection and know its probabilities. General convenience samples and unknown missing-network mechanisms are excluded.",
+  "completed": "Installed R sampling 2.11 and survey 4.5 on R 4.6.1; 78 numerical comparisons across 30 graph fixtures. Native sparse survey and dense sampling workflows benchmarked with adapter cost separated. Seven graph-family/size cases compared with SciPy sparse-pair and vectorized-subset references. 25 cases checked against 90-digit Decimal arithmetic. 600 synthetic thinnings of a second public graph. Version 0.2.0 passes 23 tests, 896 exact sample-enumeration checks, all 58 distinct native fixture/method checks, and 60 replayed public samples. A 499500-unit star passes a separate closed-form covariance oracle with explicitly raised resource budget.",
+  "contribution": "Classical totals and joint covariance implemented through subset aggregation, known unequal node probabilities, strict scope declarations, resource limits, diagnostics, deterministic provenance and reproducible API/CLI. Block reduction improves implementation efficiency without a new core dependency.",
+  "fairness": "R results execute unmodified installed functions through our graph adapter; adapter/enumeration cost is separately reported. Sparse SciPy and vectorized-subset references are new local adapters, not released motif tools. Runtime is hardware- and workload-dependent. Full process peaks include runtime libraries. No unexecuted large quadratic baseline speedup is claimed.",
+  "selection_gates": {
+    "clear_use_case": "PASS within controlled independent-node sampling, supported by primary motif-sampling literature",
+    "meaningful_useful_improvement": "PASS for high-overlap graphs: avoids constructing large pair covariance matrices; native and strong local baselines measured",
+    "plausible_journal_fit": "PASS provisionally against accessible official reviewer criteria for useful scientific software; full current guide remains inaccessible",
+    "evaluation_access": "PASS exact finite oracles, native tools, two public graph populations, ordinary CPU resources",
+    "feasible_implementation": "PASS local installable NumPy package and tests; no third-party source copied into core",
+    "distinct_from_existing_tools": "PASS bounded computation/workflow distinction, not statistical-method novelty or universal nonexistence proof"
+  },
+  "rubric": {
+    "verified_need_score_20": 14,
+    "distinct_contribution_score_20": 15,
+    "softwarex_fit_score_20": 14,
+    "evaluation_score_15": 14,
+    "feasibility_score_15": 13,
+    "maintenance_score_10": 7,
+    "total_100": 77
+  },
+  "score_interpretation": "User's project-selection rubric, not an acceptance probability. Literature documents the task; no user interviews/adoption or task-time study. Native and exact validation is strong. Generality is narrow; public release, independent review and cross-platform validation remain. Confidence moderate in publication potential and high in scoped numerical correctness.",
+  "remaining_gates": "Before submission: public versioned repository and archival release, current guide/template/license-format verification, independent statistical/code review recommended, another platform and supported dependency versions checked. An observed research-user workflow would strengthen the impact case but has not been performed or established as a mandatory journal condition.",
+  "why_prior_hold_changed": "The former hold concerned unresolved useful distinction and weak baselines. Native-equivalent execution and strong sparse comparisons now supply that evidence. External human review and user studies are valuable release/evidence steps, but the accessible official form permits potential research impact; they are not silently treated as already completed.",
+  "abandon_or_revise_if": "A maintained implementation is located that supplies the same known-design workflow at comparable scale; a separate optimized extension covers it with no residual reusable contribution; further independent checks invalidate the method implementation; or intended users cannot supply the declared sampling design. Do not expand to arbitrary missing data to manufacture broader relevance.",
+  "search_scope": "Bounded primary-source and repository checks through 2026-10-25. SoftwareX full reading remains 61 main article versions; no new corpus articles were read in this follow-up. No external contact or publishing occurred."
+}

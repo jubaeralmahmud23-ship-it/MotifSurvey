@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "networkx": "3.6.1",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "total_wall_seconds": 14.950010999978986
+}

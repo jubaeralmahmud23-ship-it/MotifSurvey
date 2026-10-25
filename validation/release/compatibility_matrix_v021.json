@@ -1,0 +1,231 @@
+{
+  "version": "0.2.1",
+  "artifact_stage": "candidate",
+  "core_sha256": "4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31",
+  "core_change_from_020": "Only import and report the shared version; all numerical code matches",
+  "wheel_sha256": "659b169041113347e0e3917db504bfcb21b8f3dcce086b107364a5d6449c09c5",
+  "sdist_sha256": "b1ea4e094f117ad1908e10b7eda956f813dfc6100595565be4fe195992f52f23",
+  "cases": [
+    {
+      "version": "0.2.1",
+      "core_sha256": "4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "system": "Windows",
+      "machine": "AMD64",
+      "python": "3.10.22",
+      "numpy": "1.24.0",
+      "networkx": "3.4.2",
+      "github_run_id": null,
+      "github_sha": null,
+      "checks": {
+        "unit_tests": {
+          "returncode": 0,
+          "passed": true,
+          "count": 28
+        },
+        "cli": {
+          "returncode": 0,
+          "passed": true
+        },
+        "stress": {
+          "returncode": 0,
+          "passed": true,
+          "cases": 25,
+          "expected_rejections": 5
+        },
+        "exact_and_replay": {
+          "returncode": 0,
+          "passed": true,
+          "exact_samples": 896,
+          "public_replays": 60,
+          "cached_native_comparisons": 58
+        },
+        "dependencies": {
+          "returncode": 0,
+          "passed": true
+        }
+      },
+      "passed": true,
+      "blas_thread_limit": 1,
+      "name": "py310_min"
+    },
+    {
+      "version": "0.2.1",
+      "core_sha256": "4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "system": "Windows",
+      "machine": "AMD64",
+      "python": "3.12.14",
+      "numpy": "1.26.4",
+      "networkx": "3.6.1",
+      "github_run_id": null,
+      "github_sha": null,
+      "checks": {
+        "unit_tests": {
+          "returncode": 0,
+          "passed": true,
+          "count": 28
+        },
+        "cli": {
+          "returncode": 0,
+          "passed": true
+        },
+        "stress": {
+          "returncode": 0,
+          "passed": true,
+          "cases": 25,
+          "expected_rejections": 5
+        },
+        "exact_and_replay": {
+          "returncode": 0,
+          "passed": true,
+          "exact_samples": 896,
+          "public_replays": 60,
+          "cached_native_comparisons": 58
+        },
+        "dependencies": {
+          "returncode": 0,
+          "passed": true
+        }
+      },
+      "passed": true,
+      "blas_thread_limit": 1,
+      "name": "py312_np1"
+    },
+    {
+      "version": "0.2.1",
+      "core_sha256": "4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "system": "Windows",
+      "machine": "AMD64",
+      "python": "3.12.14",
+      "numpy": "2.5.4",
+      "networkx": "3.6.1",
+      "github_run_id": null,
+      "github_sha": null,
+      "checks": {
+        "unit_tests": {
+          "returncode": 0,
+          "passed": true,
+          "count": 28
+        },
+        "cli": {
+          "returncode": 0,
+          "passed": true
+        },
+        "stress": {
+          "returncode": 0,
+          "passed": true,
+          "cases": 25,
+          "expected_rejections": 5
+        },
+        "exact_and_replay": {
+          "returncode": 0,
+          "passed": true,
+          "exact_samples": 896,
+          "public_replays": 60,
+          "cached_native_comparisons": 58
+        },
+        "dependencies": {
+          "returncode": 0,
+          "passed": true
+        }
+      },
+      "passed": true,
+      "blas_thread_limit": 1,
+      "name": "py312_np2"
+    },
+    {
+      "version": "0.2.1",
+      "core_sha256": "4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "system": "Windows",
+      "machine": "AMD64",
+      "python": "3.14.9",
+      "numpy": "2.5.4",
+      "networkx": "3.6.1",
+      "github_run_id": null,
+      "github_sha": null,
+      "checks": {
+        "unit_tests": {
+          "returncode": 0,
+          "passed": true,
+          "count": 28
+        },
+        "cli": {
+          "returncode": 0,
+          "passed": true
+        },
+        "stress": {
+          "returncode": 0,
+          "passed": true,
+          "cases": 25,
+          "expected_rejections": 5
+        },
+        "exact_and_replay": {
+          "returncode": 0,
+          "passed": true,
+          "exact_samples": 896,
+          "public_replays": 60,
+          "cached_native_comparisons": 58
+        },
+        "dependencies": {
+          "returncode": 0,
+          "passed": true
+        }
+      },
+      "passed": true,
+      "blas_thread_limit": 1,
+      "name": "py314"
+    },
+    {
+      "version": "0.2.1",
+      "core_sha256": "4412fcb83e74aaf492bd3eaf1ea7509a5ec51d4d31e957ebb6dc3cf177d51c31",
+      "platform": "Windows-10-10.0.19045-SP0",
+      "system": "Windows",
+      "machine": "AMD64",
+      "python": "3.15.1",
+      "numpy": "2.5.4",
+      "networkx": "3.6.1",
+      "github_run_id": null,
+      "github_sha": null,
+      "checks": {
+        "unit_tests": {
+          "returncode": 0,
+          "passed": true,
+          "count": 28
+        },
+        "cli": {
+          "returncode": 0,
+          "passed": true
+        },
+        "stress": {
+          "returncode": 0,
+          "passed": true,
+          "cases": 25,
+          "expected_rejections": 5
+        },
+        "exact_and_replay": {
+          "returncode": 0,
+          "passed": true,
+          "exact_samples": 896,
+          "public_replays": 60,
+          "cached_native_comparisons": 58
+        },
+        "dependencies": {
+          "returncode": 0,
+          "passed": true
+        }
+      },
+      "passed": true,
+      "blas_thread_limit": 1,
+      "name": "py315"
+    }
+  ],
+  "sdist_unit_tests": 28,
+  "cff_schema_valid": true,
+  "twine_passed": true,
+  "actionlint_passed": true,
+  "hosted_ci_executed": false,
+  "all_local_checks_passed": true
+}

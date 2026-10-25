@@ -1,0 +1,11 @@
+{
+  "command": "python -m unittest discover -s prototypes/motifsurvey/tests -v",
+  "environment": "work/permplan_abandonment/.venv",
+  "tests": 22,
+  "passed": 22,
+  "failures": 0,
+  "errors": 0,
+  "observed_wall_seconds": 1.227,
+  "installed_wheel": true,
+  "date": "2026-10-25"
+}

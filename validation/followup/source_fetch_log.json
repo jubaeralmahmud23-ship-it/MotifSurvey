@@ -1,0 +1,28 @@
+[
+  {
+    "file": "survey_pps.R",
+    "url": "https://raw.githubusercontent.com/cran/survey/master/R/pps.R",
+    "bytes": 16962,
+    "sha256": "488e3f05a649d0c9eddfaa95eaf1e3e2f24502dd9eb063845e7ece8d20573d94",
+    "status": "retrieved"
+  },
+  {
+    "file": "survey_description.txt",
+    "url": "https://raw.githubusercontent.com/cran/survey/master/DESCRIPTION",
+    "bytes": 1646,
+    "sha256": "de083b5b65c180983e9260c8390a74875f0fad30d66a0669984f4f6d1889cc33",
+    "status": "retrieved"
+  },
+  {
+    "file": "survey_ht-sparse.pdf",
+    "url": "https://r-survey.r-forge.r-project.org/survey/ht-sparse.pdf",
+    "status": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "file": "survey_HR.Rd",
+    "url": "https://raw.githubusercontent.com/cran/survey/master/man/HR.Rd",
+    "bytes": 1625,
+    "sha256": "1ba1b47b56cee9244b8acc527a71062669a9f0064a29a2c51afa9570475a6e70",
+    "status": "retrieved"
+  }
+]

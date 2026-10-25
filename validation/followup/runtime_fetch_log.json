@@ -1,0 +1,16 @@
+[
+  {
+    "file": "R-4.6.1-win.exe",
+    "url": "https://cloud.r-project.org/bin/windows/base/R-4.6.1-win.exe",
+    "bytes": 91749976,
+    "sha256": "c5424c40cd70ef85765a55d2ff96bb602b5f30ed536938ff004f14db5db3c2df",
+    "md5": "7907f3a20ec8ec88cd0da279024b8e27"
+  },
+  {
+    "file": "md5sum.txt",
+    "url": "https://cloud.r-project.org/bin/windows/base/md5sum.R-4.6.1.txt",
+    "bytes": 49,
+    "sha256": "77acae7fe06e931749e520a02d49eee45c2503bfc32f60e5407bb86d56fe5835",
+    "md5": "f81952f45a33c09e124b8eae803d0afd"
+  }
+]

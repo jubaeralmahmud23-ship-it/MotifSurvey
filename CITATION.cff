@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, cite MotifSurvey 0.2.1. An archival DOI has not yet been assigned."
+type: software
+title: MotifSurvey
+version: 0.2.1
+abstract: "Design-based edge, wedge and triangle totals and joint covariance under known independent vertex sampling."
+authors:
+  - family-names: "Al Mahmud"
+    given-names: "Jubaer"
+    affiliation: "Independent researcher, Dhaka, Bangladesh"
+    email: "jubaeralmahmud23@gmail.com"
+repository-code: "https://github.com/jubaeralmahmud23-ship-it/MotifSurvey"
+license: MIT
+keywords:
+  - network sampling
+  - motif counts
+  - Horvitz-Thompson estimation

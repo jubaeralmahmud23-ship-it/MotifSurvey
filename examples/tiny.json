@@ -1,0 +1,7 @@
+{
+  "nodes": ["A", "B", "C"],
+  "edges": [["A", "B"], ["B", "C"], ["A", "C"]],
+  "probabilities": {"A": 0.5, "B": 0.5, "C": 0.5},
+  "design": "independent_node",
+  "complete_induced": true
+}

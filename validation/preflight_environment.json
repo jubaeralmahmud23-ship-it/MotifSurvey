@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.5.4",
+  "baseline": "Local Python implementations, not native R sampling execution",
+  "memory": "tracemalloc, not OS peak RSS"
+}

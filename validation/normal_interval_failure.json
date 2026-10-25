@@ -1,0 +1,20 @@
+{
+  "graph": "5-leaf star",
+  "sampling": "center p=.1, leaves p=.5",
+  "target": [
+    5.0,
+    10.0,
+    0.0
+  ],
+  "naive_95pct_normal_interval_coverage": [
+    0.09687500000000004,
+    0.08125000000000003,
+    1.0000000000000009
+  ],
+  "probability_zero_observed_count": [
+    0.9031249999999995,
+    0.9187499999999997,
+    1.0000000000000009
+  ],
+  "interpretation": "Triangles truly absent; edge and wedge failure demonstrates that unbiased variance is not an interval guarantee. API returns no intervals."
+}

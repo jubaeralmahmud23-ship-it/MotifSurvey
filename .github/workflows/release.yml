@@ -1,0 +1,37 @@
+name: Versioned release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  checks:
+    uses: ./.github/workflows/checks.yml
+  publish:
+    needs: checks
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12'
+      - name: Verify tag and version
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: python -c "import os,tomllib; version=tomllib.load(open('pyproject.toml','rb'))['project']['version']; assert os.environ['RELEASE_TAG']=='v'+version"
+      - run: python -m pip install build twine
+      - run: python -m build
+      - run: python -m twine check dist/*
+      - name: Verify the release wheel
+        run: python -c "import glob,subprocess,sys; subprocess.check_call([sys.executable,'-m','pip','install',glob.glob('dist/*.whl')[0]+'[validation]'])"
+      - run: python tools/check_release.py --output release-checks
+      - run: cp release-checks/report.json dist/release-checks-linux.json
+      - name: Record artifact checksums
+        run: python -c "import hashlib,pathlib; paths=sorted(pathlib.Path('dist').iterdir()); pathlib.Path('dist/SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in paths))"
+      - name: Publish checked tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: gh release create "$RELEASE_TAG" dist/* --verify-tag --title "MotifSurvey $RELEASE_TAG" --notes-file docs/RELEASE_NOTES.rst

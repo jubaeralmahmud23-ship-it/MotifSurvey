@@ -1,0 +1,307 @@
+{
+  "version": "0.2.0",
+  "native_fixture_checks": [
+    {
+      "name": "correctness_0",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_0",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_1",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_1",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_2",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_2",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_3",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_3",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_4",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_4",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_5",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_5",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_6",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_6",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_7",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_7",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_8",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_8",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_9",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_9",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_10",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_10",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_11",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_11",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_12",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_12",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_13",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_13",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_14",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_14",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_15",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_15",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_16",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_16",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_17",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_17",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_18",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_18",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_19",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_19",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_20",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_20",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_21",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_21",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_22",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_22",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "correctness_23",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "correctness_23",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "ring_500",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "hub_50",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "random_200",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "sampling",
+      "passed": true
+    },
+    {
+      "name": "clique_12",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "ring_2000",
+      "method": "survey",
+      "passed": true
+    },
+    {
+      "name": "clique_25",
+      "method": "survey",
+      "passed": true
+    }
+  ],
+  "exact_samples": 896,
+  "public_replay_checks": 60,
+  "installed_core_sha256": "38e7170691cb2cb528bfe46ba44e64a7382762c57bf9df2d01325a8bd68eb4c4",
+  "delivered_core_sha256": "38e7170691cb2cb528bfe46ba44e64a7382762c57bf9df2d01325a8bd68eb4c4",
+  "unit_tests": {
+    "tests": 23,
+    "passed": 23,
+    "wall_seconds": 1.7611388000077568,
+    "command": "python -m unittest discover -s tests -v",
+    "output": "test_bad_edge_shapes (test_core.TestMotifSurvey.test_bad_edge_shapes) ... ok\ntest_bad_probabilities (test_core.TestMotifSurvey.test_bad_probabilities) ... ok\ntest_census (test_core.TestMotifSurvey.test_census) ... ok\ntest_cli_and_no_overwrite (test_core.TestMotifSurvey.test_cli_and_no_overwrite) ... ok\ntest_duplicate_edges (test_core.TestMotifSurvey.test_duplicate_edges) ... ok\ntest_duplicate_nodes (test_core.TestMotifSurvey.test_duplicate_nodes) ... ok\ntest_empty_sample (test_core.TestMotifSurvey.test_empty_sample) ... ok\ntest_incomplete_edges (test_core.TestMotifSurvey.test_incomplete_edges) ... ok\ntest_indefinite_covariance_retained (test_core.TestMotifSurvey.test_indefinite_covariance_retained) ... ok\ntest_invalid_ids (test_core.TestMotifSurvey.test_invalid_ids) ... ok\ntest_isolates (test_core.TestMotifSurvey.test_isolates) ... ok\ntest_loops (test_core.TestMotifSurvey.test_loops) ... ok\ntest_multiple_blocks_against_pair_formula (test_core.TestMotifSurvey.test_multiple_blocks_against_pair_formula) ... ok\ntest_networkx_native_counts_all_4_node_graphs (test_core.TestMotifSurvey.test_networkx_native_counts_all_4_node_graphs) ... ok\ntest_permutation_invariance (test_core.TestMotifSurvey.test_permutation_invariance) ... ok\ntest_probability_keys (test_core.TestMotifSurvey.test_probability_keys) ... ok\ntest_resource_budgets (test_core.TestMotifSurvey.test_resource_budgets) ... ok\ntest_single_edge_closed_form (test_core.TestMotifSurvey.test_single_edge_closed_form) ... ok\ntest_strict_json (test_core.TestMotifSurvey.test_strict_json) ... ok\ntest_triangle_multiplicities (test_core.TestMotifSurvey.test_triangle_multiplicities) ... ok\ntest_underflow (test_core.TestMotifSurvey.test_underflow) ... ok\ntest_unknown_endpoint (test_core.TestMotifSurvey.test_unknown_endpoint) ... ok\ntest_wrong_designs (test_core.TestMotifSurvey.test_wrong_designs) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 1.383s\n\nOK\n"
+  },
+  "all_passed": true
+}
